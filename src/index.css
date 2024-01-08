@@ -97,6 +97,11 @@ footer {
   color: var(--brand-color);
   opacity: 0.85;
   transition: ease-in-out 100ms;
+  padding: 7px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 16px;
+  border: none;
 }
 .launch-button:hover {
   background-color: var(--secondary-color);
@@ -105,6 +110,15 @@ footer {
 .submit-button {
   background-color: var(--brand-color);
   color: var(--main-background-color);
+  padding: 7px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 16px;
+  border: none;
+}
+.submit-button:hover {
+  background-color: var(--highlight-color-solid);
+  color: var(--secondary-color);
 }
 .linkedin-button {
   background-color: var(--main-background-color);
