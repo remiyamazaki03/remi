@@ -4,6 +4,7 @@ import reportWebVitals from "./reportWebVitals";
 import "./index.css";
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import "../node_modules/bootstrap/dist/js/bootstrap.bundle.min";
+import { BrowserRouter } from "react-router-dom";
 import Navbar from "./Navbar";
 import App from "./App";
 import Footer from "./Footer";
@@ -11,9 +12,11 @@ import Footer from "./Footer";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <Navbar />
-    <App />
-    <Footer />
+    <BrowserRouter>
+      <Navbar />
+      <App />
+      <Footer />
+    </BrowserRouter>
   </React.StrictMode>
 );
 
