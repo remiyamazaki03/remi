@@ -3,7 +3,7 @@
   --secondary-color: rgb(255, 255, 255);
   --main-background-color: rgb(0, 0, 0);
   --highlight-color: #8763ffb0;
-  --highlight-color-solid: #8763ff;
+  --highlight-color-light: #8763ff;
 }
 h1 {
   font-size: 96px;
@@ -117,7 +117,7 @@ footer {
   border: none;
 }
 .submit-button:hover {
-  background-color: var(--highlight-color-solid);
+  background-color: var(--highlight-color-light);
   color: var(--secondary-color);
 }
 .linkedin-button {
@@ -144,7 +144,16 @@ footer {
   color: #0c66c2;
 }
 .navbar-css {
-  background-color: var(--highlight-color-solid);
+  background-color: var(--highlight-color-light);
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+}
+.nav-item {
+  padding: 8px;
+}
+.nav-item:hover {
+  background-color: var(--brand-color);
+  border-radius: 2px;
 }
 #portfolio-rep-link:hover {
   color: var(--brand-color);
@@ -169,7 +178,7 @@ footer {
   }
 }
 
-@media (max-width: 730px) {
+@media (max-width: 576px) {
   h1,
   h2,
   h3 {
@@ -202,6 +211,9 @@ footer {
   .contact {
     padding-top: 35px;
     padding-right: 15%;
+  }
+  .navbar {
+    padding: 6px !important;
   }
   textarea {
     height: 3em;

@@ -1,14 +1,11 @@
 import React from "react";
-import "./index.css";
-import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
-import "../node_modules/bootstrap/dist/js/bootstrap.bundle.min";
 import singer from "./images/Remi-singer.jpg";
 import microphone from "./images/microphone.jpg";
 import developer from "./images/Remi-developer.jpg";
 
 export default function App() {
   return (
-    <div className="content">
+    <div id="content">
       <div className="hero row">
         <div className="col-lg-6">
           <h3>Hi!</h3>
@@ -37,11 +34,9 @@ export default function App() {
             <p className="p-5 text-center fs-4">
               See details and student testimonials here:
             </p>
-            <a href="/vocal-coach.html">
-              <button className="launch-button" id="vocal-button">
-                Details
-              </button>
-            </a>
+            <button className="launch-button" id="vocal-button">
+              Details
+            </button>
           </div>
         </div>
         <div className="col-md-4 p-0 work-img">
