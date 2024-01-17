@@ -1,9 +1,9 @@
 :root {
   --brand-color: #6347ff;
-  --secondary-color: rgb(255, 255, 255);
+  --secondary-color: #e0e0e0;
   --main-background-color: rgb(0, 0, 0);
-  --highlight-color: #8763ffb0;
-  --highlight-color-light: #8763ff;
+  --overlay-color: #8763ffb0;
+  --highlight-color: #8763ff;
 }
 h1 {
   font-size: 96px;
@@ -59,12 +59,26 @@ footer {
   background-size: contain;
   background-position: 115%;
 }
+.title {
+  height: 20rem;
+  padding-top: 150px;
+  padding-left: 180px;
+  background-color: var(--main-background-color);
+  color: var(--secondary-color);
+  background-image: url(/src/images/microphone.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 0%;
+}
 .name {
   color: var(--brand-color);
 }
 .about {
   background-color: var(--secondary-color);
   color: var(--main-background-color);
+}
+.content {
+  background-color: var(--secondary-color);
 }
 .contact {
   background-color: var(--main-background-color);
@@ -87,7 +101,7 @@ footer {
   justify-content: center;
   top: 0;
   left: 0;
-  background-color: var(--highlight-color);
+  background-color: var(--overlay-color);
 }
 .overlay p {
   font-size: 28px;
@@ -117,7 +131,7 @@ footer {
   border: none;
 }
 .submit-button:hover {
-  background-color: var(--highlight-color-light);
+  background-color: var(--highlight-color);
   color: var(--secondary-color);
 }
 .linkedin-button {
@@ -131,7 +145,7 @@ footer {
   text-decoration: none;
 }
 .linkedin-button:hover {
-  background-color: var(--highlight-color);
+  background-color: var(--overlay-color);
   color: var(--brand-color);
 }
 .github-logo {
@@ -144,7 +158,7 @@ footer {
   color: #0c66c2;
 }
 .navbar-css {
-  background-color: var(--highlight-color-light);
+  background-color: var(--highlight-color);
   padding-top: 0px !important;
   padding-bottom: 0px !important;
 }
