@@ -10,15 +10,15 @@ export default function Navbar() {
         className="navbar-toggler"
         type="button"
         data-bs-toggle="collapse"
-        data-bs-target="#navbarToggleExternalContent"
-        aria-controls="navbarToggleExternalContent"
+        data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
         aria-expanded="false"
         aria-label="Toggle navigation"
       >
         <span className="navbar-toggler-icon"></span>
       </button>
-      <div className="collapse" id="navbarToggleExternalContent">
-        <ul className="navbar-nav">
+      <div className="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul className="navbar-nav me-auto">
           <li className="nav-item mx-0">
             <Link className="nav-link" to="/pages/performance">
               My work
@@ -36,9 +36,9 @@ export default function Navbar() {
           </li>
         </ul>
         <div>
-          <a className="nav-link japanese" href="/jpn.html">
+          <Link className="nav-link japanese" to="/">
             日本語
-          </a>
+          </Link>
           <div className="hide speech-bubble">準備中</div>
         </div>
       </div>
