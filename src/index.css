@@ -59,15 +59,16 @@ footer {
   background-position: 115%;
 }
 .title {
-  height: 20rem;
+  height: 16.5rem;
   padding-top: 150px;
   padding-left: 180px;
   background-color: var(--main-background-color);
   color: var(--secondary-color);
   background-image: url(/src/images/microphone.jpg);
   background-repeat: no-repeat;
-  background-size: contain;
   background-position: 0%;
+  background-size: 15%;
+  background-position-y: 0.5rem;
 }
 .name {
   color: var(--highlight-color);

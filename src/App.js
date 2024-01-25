@@ -1,6 +1,6 @@
 import { Route, Routes } from "react-router-dom";
 import Home from "./Home";
-import Performance from "./pages/Performance";
+import About from "./pages/About";
 import Voicecoach from "./pages/Voicecoach";
 import Webdeveloper from "./pages/Webdeveloper";
 
@@ -9,7 +9,7 @@ export default function App() {
     <div>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/performance" element={<Performance />} />{" "}
+        <Route path="/about" element={<About />} />{" "}
         <Route path="/voicecoach" element={<Voicecoach />} />{" "}
         <Route path="/webdeveloper" element={<Webdeveloper />} />
       </Routes>
