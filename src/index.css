@@ -171,6 +171,40 @@ footer {
   background-color: var(--brand-color);
   border-radius: 2px;
 }
+.speech-bubble {
+  background: var(--secondary-color);
+  color: var(--main-background-color);
+  font-size: 14px;
+  line-height: 2em;
+  padding: 0 0.5em;
+  position: absolute;
+  text-align: center;
+  min-width: 3em;
+  border-radius: 0.4em;
+  margin-top: 0.5em;
+}
+.speech-bubble:after {
+  border: 0.5em solid transparent;
+  border-bottom-color: var(--secondary-color);
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  left: 40%;
+  width: 0;
+  height: 0;
+}
+.hide {
+  display: none;
+}
+.japanese {
+  margin-right: 60px;
+}
+.japanese:hover {
+  margin-right: none;
+}
+.japanese:hover + .hide {
+  display: block;
+}
 #portfolio-rep-link:hover {
   color: var(--brand-color);
   font-weight: bold;

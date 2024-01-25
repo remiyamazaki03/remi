@@ -35,10 +35,12 @@ export default function Navbar() {
             </Link>
           </li>
         </ul>
-        <a className="nav-link me-4" href="/jpn.html">
-          {" "}
-          日本語{" "}
-        </a>
+        <div>
+          <a className="nav-link japanese" href="/jpn.html">
+            日本語
+          </a>
+          <div className="hide speech-bubble">準備中</div>
+        </div>
       </div>
     </nav>
   );
