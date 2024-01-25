@@ -6,11 +6,11 @@ export default function Home() {
   return (
     <div>
       <div className="hero row">
-        <div className="col-lg-6">
+        <div className="col-lg-6 name">
           <h3>Hi!</h3>
           <h1>
-            I'm <br />
-            <span className="name">Remi</span>
+            I'm
+            <div>Remi</div>
           </h1>
         </div>
         <div className="col-lg-6 d-none d-md-block"></div>

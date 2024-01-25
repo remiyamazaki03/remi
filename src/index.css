@@ -45,8 +45,7 @@ footer {
   border-radius: 5px;
 }
 .hero,
-.about,
-.contact {
+.about {
   height: 100vh;
   padding-top: 100px;
   padding-left: 60px;
@@ -71,7 +70,7 @@ footer {
   background-position: 0%;
 }
 .name {
-  color: var(--brand-color);
+  color: var(--highlight-color);
 }
 .about {
   background-color: var(--secondary-color);
@@ -83,6 +82,9 @@ footer {
 .contact {
   background-color: var(--main-background-color);
   color: var(--secondary-color);
+  padding-top: 100px;
+  padding-left: 60px;
+  height: fit-content;
 }
 .work-img {
   position: relative;
