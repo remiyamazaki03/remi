@@ -282,4 +282,9 @@ footer {
     padding-bottom: 25px;
     padding-left: 25px;
   }
+  .blurry {
+    background-image: none;
+    width: 200px;
+    border-radius: 25px;
+  }
 }

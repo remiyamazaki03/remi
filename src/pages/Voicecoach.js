@@ -80,7 +80,7 @@ export default function Voicecoach() {
                   <br />
                   <br />
                   “The result was stunning. At first, both myself and the
-                  [musical] actor were quite sure of his upper range limit, but
+                  [musical] actor were quite sure of his upper range limit, but{" "}
                   <b>
                     after Remi's coaching, he sang notes I (thought I) knew he
                     couldn't hit, all with 100% presence and confidence onstage.
@@ -113,7 +113,7 @@ export default function Voicecoach() {
                 <img
                   src={stage}
                   alt="show off your singing"
-                  className="img-fluid blurry d-block d-md-none w-25"
+                  className="img-fluid blurry d-block d-md-none"
                 />
                 <h3 className="text-center">
                   ... you want to take your singing to the next level, or even
