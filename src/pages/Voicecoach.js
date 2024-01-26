@@ -26,8 +26,8 @@ export default function Voicecoach() {
                   className="img-fluid d-block d-md-none w-25"
                 />
                 <h3 className="text-center">
-                  ... you want to experience freedom in singing, not just
-                  physically but emotionally as well:
+                  ... you want freedom in singing, both physically AND
+                  emotionally:
                 </h3>
                 <p className="text-center">
                   <br />
@@ -65,9 +65,8 @@ export default function Voicecoach() {
                   className="img-fluid d-block d-md-none w-25 pb-3"
                 />
                 <h3 className="text-center">
-                  ... you want to branch out and discover other parts of your
-                  voice, like singing notes or styles you thought were beyond
-                  you:
+                  ... you want to branch out, like singing notes or styles
+                  you've never sung before:
                 </h3>
                 <p className="text-center">
                   <br />

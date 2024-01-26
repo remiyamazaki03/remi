@@ -122,6 +122,7 @@ footer {
   padding-right: 15px;
   border-radius: 16px;
   border: none;
+  text-decoration: none;
 }
 .launch-button:hover {
   background-color: var(--secondary-color);

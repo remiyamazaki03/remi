@@ -1,8 +1,17 @@
+import { Link, useNavigate } from "react-router-dom";
 import singer from "./images/Remi-singer.jpg";
 import microphone from "./images/microphone.jpg";
 import developer from "./images/Remi-developer.jpg";
 
 export default function Home() {
+  const navigate = useNavigate();
+  const handleClick = (to) => (event) => {
+    window.scrollTo(0, 0);
+    if (to) {
+      navigate(to);
+    }
+    event.preventDefault();
+  };
   return (
     <div>
       <div className="hero row">
@@ -20,10 +29,14 @@ export default function Home() {
           <img className="img-fluid" src={singer} alt="Remi singer" />
           <div className="overlay">
             <h2>Singer / Actor</h2>
-            <p className="p-5 text-center fs-4">
-              See my performance background:
-            </p>
-            <button className="launch-button">Coming soon</button>
+            <p className="p-5 text-center fs-4">Get to know me!</p>
+            <Link
+              to="/about"
+              className="launch-button"
+              onClick={handleClick("/about")}
+            >
+              About me
+            </Link>
           </div>
         </div>
         <div className="col-md-4 p-0 work-img">
@@ -33,9 +46,13 @@ export default function Home() {
             <p className="p-5 text-center fs-4">
               See details and student testimonials here:
             </p>
-            <button className="launch-button" id="vocal-button">
-              Details
-            </button>
+            <Link
+              to="/voicecoach"
+              className="launch-button"
+              onClick={handleClick("/voicecoach")}
+            >
+              See more
+            </Link>
           </div>
         </div>
         <div className="col-md-4 p-0 work-img">
@@ -46,7 +63,14 @@ export default function Home() {
               Web design and development services for artists and small business
               owners:
             </p>
-            <button className="launch-button">Coming soon</button>
+
+            <Link
+              to="/webdeveloper"
+              className="launch-button"
+              onClick={handleClick("/webdeveloper")}
+            >
+              Coming soon
+            </Link>
           </div>
         </div>
       </div>
