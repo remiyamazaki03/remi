@@ -16,10 +16,6 @@ h2 {
 h3 {
   font-size: 48px;
 }
-p,
-label {
-  font-size: 36px;
-}
 footer {
   padding-left: 60px;
   background-color: var(--main-background-color);
@@ -58,9 +54,16 @@ footer {
   background-size: contain;
   background-position: 115%;
 }
+.blurry {
+  background-image: url(/src/images/stage.jpg);
+  box-shadow: 0 0 0.5em 0.5em inset #e0e0e0;
+  padding: 1em;
+  border-radius: 4px;
+}
+
 .title {
   height: 16.5rem;
-  padding-top: 150px;
+  padding-top: 75px;
   padding-left: 180px;
   background-color: var(--main-background-color);
   color: var(--secondary-color);
@@ -271,5 +274,11 @@ footer {
   }
   footer {
     font-size: 10px;
+  }
+  .title {
+    height: fit-content;
+    background-position-y: 2.5rem;
+    padding-bottom: 25px;
+    padding-left: 25px;
   }
 }

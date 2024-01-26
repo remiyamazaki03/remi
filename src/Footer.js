@@ -99,7 +99,7 @@ export default function Footer() {
           <div className="d-flex d-block d-md-none mb-3 justify-content-center">
             email: hello03remi@gmail.com
           </div>
-          <div className="container">
+          <div className="me-sm-5">
             <FormfacadeEmbed
               formFacadeURL="https://formfacade.com/include/100240402409090706097/form/1FAIpQLScGNmvJZi7y5zQztyhrSeGIe_HVPr-uCRwYfh4U0UDX8XQXtA/classic.js/?div=ff-compose"
               onSubmitForm={() => {
@@ -111,7 +111,7 @@ export default function Footer() {
       </div>
       <footer>
         <div className="name">
-          © 2023 &nbsp;
+          © 2024 &nbsp;
           <a
             href="https://github.com/remiyamazaki03/portfolio"
             id="portfolio-rep-link"
