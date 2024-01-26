@@ -29,7 +29,7 @@ export default function Navbar() {
           <li className="nav-item mx-0">
             <Link
               className="nav-link"
-              to="/pages/about"
+              to="/about"
               onClick={() => {
                 navigate("/pages/about");
                 closeMenu();
