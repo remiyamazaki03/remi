@@ -28,15 +28,18 @@ export default function Voicecoach() {
                 ... you want freedom in singing, both physically AND
                 emotionally:
               </h2>
-              <p className="text-center px-5 pb-4">
-                <br />“
-                <b>I thought of myself as bad singer with limited range.</b>{" "}
+              <p className="text-md-center px-5 pb-4">
+                <br />
+                <b>
+                  "I thought of myself as bad singer with limited range.
+                </b>{" "}
                 During the lessons <b>Remi always encouraged me. </b>
                 One of the exercises was making a pig face. She said “making an
                 ugly face is part of the vocal lesson.{" "}
                 <b>Nothing to be ashamed of!</b>” That's it. I had nothing to be
-                ashamed of. Remi helped me to widen my range, and to change from
-                my chest voice to falsetto naturally.{" "}
+                ashamed of. <br />
+                Remi helped me to widen my range, and to change from my chest
+                voice to falsetto naturally.{" "}
                 <b>
                   After two months of training, I could sing songs which I never
                   expected to sing.
@@ -68,7 +71,7 @@ export default function Voicecoach() {
                 ... you want to branch out, and sing notes and styles you've
                 never sung before:
               </h2>
-              <p className="text-center px-5">
+              <p className="text-md-center px-5">
                 <br />
                 “I didn't know I had this side of my voice!!! Given proper
                 instructions [guidance],{" "}
@@ -121,7 +124,7 @@ export default function Voicecoach() {
                 ... you want to take your singing to the next level, or step up
                 your professional game:
               </h2>
-              <p className="text-center px-5 pb-5">
+              <p className="text-md-center px-5 pb-5">
                 <br />
                 “Before these lessons, all I thought about was matching pitch,
                 but{" "}
@@ -196,10 +199,9 @@ export default function Voicecoach() {
                   </ul>
                 </li>
               </ul>
-              <p className="text-center px-md-5 pb-3 fw-bold">
-                If you have questions about any of the above,
-                <br className="d-xl-none" /> please contact me via the form
-                below.
+              <p className="text-md-center ps-5 pe-2 px-md-5 pb-3 fw-bold">
+                If you have any questions, please
+                <br className="d-xl-none" /> contact me via the form below.
                 <br />I look forward to hearing from you!
               </p>
             </div>
