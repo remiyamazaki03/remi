@@ -6,8 +6,9 @@ export default function Footer() {
       <div className="contact row">
         <div className="col-md-6 d-none d-md-block">
           <h1 className="mt-4 mb-2 mb-md-5">
-            Let's <span className="name">get in touch!</span>
+            Let's <span className="brand">get in touch!</span>
           </h1>
+
           <div className="d-flex">
             <a
               href="https://www.instagram.com/remi.0.3"
@@ -50,10 +51,14 @@ export default function Footer() {
               <i className="fa-brands fa-github github-logo"></i>
             </a>
           </div>
-          <div className="mt-4 mb-2 mb-md-5">email: hello03remi@gmail.com</div>
+          <div className="mt-4 mb-2 mb-md-5 pretty">
+            email: hello03remi@gmail.com
+          </div>
         </div>
         <div className="col-md-6 d-flex flex-column">
-          <h1 className="d-block d-md-none my-4">Let's get in touch!</h1>
+          <h2 className="d-block d-md-none my-4 pretty fs-1">
+            Let's get in touch!
+          </h2>
           <div className="d-flex d-block d-md-none mb-3 justify-content-center">
             <a
               href="https://www.instagram.com/remi.0.3"
@@ -110,12 +115,12 @@ export default function Footer() {
         </div>
       </div>
       <footer>
-        <div className="name pt-2">
+        <div className="brand pt-2">
           © 2024 &nbsp;
           <a
             href="https://github.com/remiyamazaki03/portfolio"
             id="portfolio-rep-link"
-            className="name"
+            className="brand"
           >
             Open-source code
           </a>

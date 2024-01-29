@@ -9,10 +9,7 @@ export default function Navbar() {
     }
   };
   const navClick = (to) => {
-    console.log("navClick triggered");
-    console.log("Current scroll position:", window.scrollY);
     window.scrollTo({ top: 0, behavior: "smooth" });
-    console.log("Scrolled to the top");
     closeMenu();
     if (to) {
       navigate(to);

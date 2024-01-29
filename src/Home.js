@@ -16,10 +16,10 @@ export default function Home() {
     <div>
       <div className="hero row">
         <div className="col-lg-6 name">
-          <h3>Hi!</h3>
-          <h1>
+          <h3 className="pretty">Hi!</h3>
+          <h1 className="pretty">
             I'm
-            <div>Remi</div>
+            <div className="brand">Remi</div>
           </h1>
         </div>
         <div className="col-lg-6 d-none d-md-block"></div>
