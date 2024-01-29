@@ -3,13 +3,13 @@ import FormfacadeEmbed from "@formfacade.dev/embed-react";
 export default function Footer() {
   return (
     <div>
-      <div className="contact row">
+      <div className="row contact">
         <div className="col-md-6 d-none d-md-block">
-          <h1 className="mt-4 mb-2 mb-md-5">
+          <h1 className="ps-5 mt-5 mb-2 mb-md-5">
             Let's <span className="brand">get in touch!</span>
           </h1>
 
-          <div className="d-flex">
+          <div className="d-flex ps-5">
             <a
               href="https://www.instagram.com/remi.0.3"
               className="fs-1 me-3"
@@ -51,7 +51,7 @@ export default function Footer() {
               <i className="fa-brands fa-github github-logo"></i>
             </a>
           </div>
-          <div className="mt-4 mb-2 mb-md-5 pretty">
+          <div className="mt-4 mb-2 mb-md-5 pretty ps-5">
             email: hello03remi@gmail.com
           </div>
         </div>

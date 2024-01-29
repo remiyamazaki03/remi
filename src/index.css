@@ -110,8 +110,6 @@ footer {
 .contact {
   background-color: var(--main-background-color);
   color: var(--secondary-color);
-  padding-top: 100px;
-  padding-left: 60px;
   height: fit-content;
 }
 .work-img {
@@ -290,7 +288,8 @@ footer {
 
   .contact {
     padding-top: 35px;
-    padding-right: 15%;
+    padding-right: 7.5%;
+    padding-left: 7.5%;
   }
   .navbar {
     padding: 6px !important;
@@ -313,6 +312,6 @@ footer {
     border-radius: 25px;
   }
   .bio {
-    font-size: 2.7vw;
+    font-size: 4.5vw;
   }
 }

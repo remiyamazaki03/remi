@@ -9,7 +9,7 @@ export default function Voicecoach() {
         Voice lessons with Remi might be for you if...
       </h2>
       <div className="p-0 m-0">
-        <div className="row py-1 px-5 content">
+        <div className="row py-1 px-md-5 content">
           <div className="col-md-4 d-flex align-items-center">
             <img
               src={heart}
@@ -56,7 +56,7 @@ export default function Voicecoach() {
             </div>
           </div>
         </div>
-        <div className="row py-1 px-5  content2">
+        <div className="row py-1 px-md-5 content2">
           <div className="col-md-8">
             <div>
               <img
@@ -102,7 +102,7 @@ export default function Voicecoach() {
             />
           </div>
         </div>
-        <div className="row py-1 px-5 content">
+        <div className="row py-1 px-md-5 content">
           <div className="col-md-4 d-flex align-items-center">
             <img
               src={stage}
@@ -154,7 +154,7 @@ export default function Voicecoach() {
               <h2 className="text-center pt-5 text-decoration-underline">
                 Pricing info
               </h2>
-              <ul className="py-3 px-5 mx-5">
+              <ul className="ps-0 py-3 px-md-5 mx-5">
                 <li className="mainList">
                   Free trial (online only, first time only)
                   <ul className="subList">
@@ -196,7 +196,7 @@ export default function Voicecoach() {
                   </ul>
                 </li>
               </ul>
-              <p className="text-center px-5 pb-3 fw-bold">
+              <p className="text-center px-md-5 pb-3 fw-bold">
                 If you have questions about any of the above,
                 <br className="d-xl-none" /> please contact me via the form
                 below.
