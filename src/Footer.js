@@ -110,7 +110,7 @@ export default function Footer() {
         </div>
       </div>
       <footer>
-        <div className="name">
+        <div className="name pt-2">
           © 2024 &nbsp;
           <a
             href="https://github.com/remiyamazaki03/portfolio"
