@@ -8,9 +8,20 @@ export default function Navbar() {
       navbar.classList.remove("show");
     }
   };
+  const navClick = (to) => {
+    console.log("navClick triggered");
+    console.log("Current scroll position:", window.scrollY);
+    window.scrollTo({ top: 0, behavior: "smooth" });
+    console.log("Scrolled to the top");
+    closeMenu();
+    if (to) {
+      navigate(to);
+    }
+  };
+
   return (
     <nav className="navbar navbar-expand-sm navbar-light fixed-top navbar-css">
-      <Link className="navbar-brand ms-3" to="/">
+      <Link className="navbar-brand ms-3" to="/" onClick={() => navClick("/")}>
         Remi
       </Link>
       <button
@@ -30,10 +41,7 @@ export default function Navbar() {
             <Link
               className="nav-link"
               to="/about"
-              onClick={() => {
-                navigate("/pages/about");
-                closeMenu();
-              }}
+              onClick={() => navClick("/pages/about")}
             >
               About me
             </Link>
@@ -42,10 +50,7 @@ export default function Navbar() {
             <Link
               className="nav-link"
               to="/voicecoach"
-              onClick={() => {
-                navigate("/pages/voicecoach");
-                closeMenu();
-              }}
+              onClick={() => navClick("/pages/voicecoach")}
             >
               Voice lessons
             </Link>
@@ -54,10 +59,7 @@ export default function Navbar() {
             <Link
               className="nav-link"
               to="/webdeveloper"
-              onClick={() => {
-                navigate("/pages/webdeveloper");
-                closeMenu();
-              }}
+              onClick={() => navClick("/pages/webdeveloper")}
             >
               Web development
             </Link>
