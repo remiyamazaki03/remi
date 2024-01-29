@@ -4,6 +4,7 @@
   --main-background-color: rgb(0, 0, 0);
   --overlay-color: #8763ffb0;
   --highlight-color: #8763ff;
+  --secondary-background-color: #d2cce5;
 }
 h1 {
   font-size: 96px;
@@ -15,6 +16,14 @@ h2 {
 }
 h3 {
   font-size: 48px;
+}
+.mainList {
+  list-style-type: none;
+  font-weight: bold;
+}
+.subList {
+  list-style-type: circle;
+  font-weight: normal;
 }
 .bio {
   font-size: 1.2vw;
@@ -89,6 +98,16 @@ footer {
 }
 .content {
   background-color: var(--secondary-color);
+}
+.content2 {
+  background-color: var(--secondary-background-color);
+}
+.pricing {
+  background-color: var(--secondary-background-color);
+  background-image: url(/src/images/microphone.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 100%;
 }
 .contact {
   background-color: var(--main-background-color);
@@ -243,6 +262,9 @@ footer {
   .bio {
     font-size: 1.5vw;
   }
+  .pricing {
+    background-image: none;
+  }
 }
 @media (max-width: 768px) {
   h1,
@@ -274,6 +296,7 @@ footer {
     background-image: none;
     padding-right: 15%;
   }
+
   .contact {
     padding-top: 35px;
     padding-right: 15%;
