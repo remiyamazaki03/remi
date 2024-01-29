@@ -5,9 +5,9 @@ import stage from "../images/stage.jpg";
 export default function Voicecoach() {
   return (
     <div>
-      <h1 className="title d-flex align-items-center m-0">
+      <h2 className="title d-flex align-items-center m-0">
         Voice lessons with Remi might be for you if...
-      </h1>
+      </h2>
       <div className="p-0 m-0">
         <div className="row py-1 px-5 content">
           <div className="col-md-4 d-flex align-items-center">
@@ -24,10 +24,10 @@ export default function Voicecoach() {
                 alt="heartbeat"
                 className="img-fluid d-block mt-4 d-md-none w-25"
               />
-              <h3 className="text-center pt-md-5">
+              <h2 className="text-center pt-md-5">
                 ... you want freedom in singing, both physically AND
                 emotionally:
-              </h3>
+              </h2>
               <p className="text-center px-5 pb-4">
                 <br />“
                 <b>I thought of myself as bad singer with limited range.</b>{" "}
@@ -64,10 +64,10 @@ export default function Voicecoach() {
                 alt="expand your palette"
                 className="img-fluid d-block mt-4 d-md-none w-25 pb-3"
               />
-              <h3 className="text-center pt-md-5 px-3">
+              <h2 className="text-center pt-md-5 px-3">
                 ... you want to branch out, and sing notes and styles you've
                 never sung before:
-              </h3>
+              </h2>
               <p className="text-center px-5">
                 <br />
                 “I didn't know I had this side of my voice!!! Given proper
@@ -117,10 +117,10 @@ export default function Voicecoach() {
                 alt="show off your singing"
                 className="img-fluid blurry d-block mt-4 d-md-none"
               />
-              <h3 className="text-center pt-md-5">
+              <h2 className="text-center pt-md-5">
                 ... you want to take your singing to the next level, or step up
                 your professional game:
-              </h3>
+              </h2>
               <p className="text-center px-5 pb-5">
                 <br />
                 “Before these lessons, all I thought about was matching pitch,
@@ -151,9 +151,9 @@ export default function Voicecoach() {
         <div className="row pricing">
           <div className="col-md-9">
             <div>
-              <h3 className="text-center pt-5 text-decoration-underline">
+              <h2 className="text-center pt-5 text-decoration-underline">
                 Pricing info
-              </h3>
+              </h2>
               <ul className="py-3 px-5 mx-5">
                 <li className="mainList">
                   Free trial (online only, first time only)

@@ -1,13 +1,8 @@
 export default function Webdeveloper() {
   return (
-    <div className="title m-0 d-flex align-items-center">
-      <div className="d-column">
-        <h1>Web Developer</h1>
-        <h3>Under construction.</h3>
-        <p>
-          If you would like to inquire, please contact me via the form below!
-        </p>
-      </div>
+    <div>
+      <h2 className="title m-0 d-flex align-items-center">Web Developer</h2>
+      <p className="py-5 px-5 m-0 content2 text-center">Under construction.</p>
     </div>
   );
 }

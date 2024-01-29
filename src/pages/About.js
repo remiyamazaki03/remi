@@ -3,11 +3,11 @@ import aboutremi from "../images/aboutremi.jpg";
 export default function About() {
   return (
     <div>
-      <h1 className="title m-0 d-flex align-items-center">About me</h1>
-      <div className="about m-0 row align-items-center">
+      <h2 className="title m-0 d-flex align-items-center">About me</h2>
+      <div className="about m-0 row text-center align-items-center">
         <div className="col-md-8 p-5">
-          <h2 className="mt-2">Hi, I'm Remi!</h2>
-          <p className="mt-4 bio text-center">
+          <h2 className="mt-2 fs-3">Hi, I'm Remi!</h2>
+          <p className="mt-4 bio ">
             Thank you for visiting my page 🥳 <br />
             <br />I am a classically trained singer, but my go-to genre is
             gospel. I direct the Union Praise Team (gospel and contemporary

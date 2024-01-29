@@ -28,7 +28,7 @@ export default function Home() {
         <div className="col-md-4 p-0 work-img">
           <img className="img-fluid" src={singer} alt="Remi singer" />
           <div className="overlay">
-            <h2>Singer / Actor</h2>
+            <h2 className="overlayTitle">Singer / Actor</h2>
             <p className="p-5 text-center fs-4">Get to know me!</p>
             <Link
               to="/about"
@@ -42,7 +42,7 @@ export default function Home() {
         <div className="col-md-4 p-0 work-img">
           <img className="img-fluid" src={microphone} alt="microphone" />
           <div className="overlay" id="vocal-overlay">
-            <h2>Vocal coach</h2>
+            <h2 className="overlayTitle">Vocal coach</h2>
             <p className="p-5 text-center fs-4">
               See details and student testimonials here:
             </p>
@@ -58,7 +58,7 @@ export default function Home() {
         <div className="col-md-4 p-0 work-img">
           <img className="img-fluid" src={developer} alt="Remi profile" />
           <div className="overlay">
-            <h2>Web developer</h2>
+            <h2 className="overlayTitle">Web developer</h2>
             <p className="p-4 text-center fs-4">
               Web design and development services for artists and small business
               owners:
