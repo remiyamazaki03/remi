@@ -188,6 +188,13 @@ export default function Voicecoach() {
                     </li>
                   </ul>
                 </li>
+                <li className="mainList">
+                  Musical direction / Voice coaching for musical cast or other
+                  group
+                  <ul className="subList">
+                    <li>Please inquire</li>
+                  </ul>
+                </li>
                 <br />
                 <li className="mainList">
                   Accepted payment methods
