@@ -195,20 +195,11 @@ export default function Voicecoach() {
                     <li>Please inquire</li>
                   </ul>
                 </li>
-                <br />
-                <li className="mainList">
-                  Accepted payment methods
-                  <ul className="subList">
-                    <li>
-                      PayPal, PayPay, bank transfer, cash (in person only)
-                    </li>
-                    <li>For credit card payments, please inquire.</li>
-                  </ul>
-                </li>
               </ul>
-              <p className="text-md-center ps-5 pe-2 px-md-5 pb-3 fw-bold">
-                If you have any questions, please
-                <br className="d-xl-none" /> contact me via the form below.
+              <p className="text-center ps-5 pe-2 px-md-5 pb-3 fw-bold">
+                If you are interested or have any questions,{" "}
+                <br className="d-xl-none" />
+                please contact me via the form below.
                 <br />I look forward to hearing from you!
               </p>
             </div>
