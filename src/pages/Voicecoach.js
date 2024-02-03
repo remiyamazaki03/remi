@@ -184,7 +184,7 @@ export default function Voicecoach() {
                     <li>Y6000 per 45 min (Location: Ikebukuro area)</li>
                     <li>
                       If you would like to inquire about other Tokyo locations,
-                      please inquire.
+                      please let me know.
                     </li>
                   </ul>
                 </li>

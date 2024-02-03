@@ -49,6 +49,7 @@ export default function Home() {
             <Link
               to="/voicecoach"
               className="launch-button"
+              id="vocal-button"
               onClick={handleClick("/voicecoach")}
             >
               See more
