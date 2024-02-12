@@ -155,7 +155,7 @@ export default function Voicecoach() {
           <div className="col-md-9">
             <div>
               <h2 className="text-center pt-5 text-decoration-underline">
-                Pricing info
+                Pricing
               </h2>
               <ul className="ps-0 py-3 px-md-5 mx-5">
                 <li className="mainList">

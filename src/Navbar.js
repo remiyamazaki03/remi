@@ -61,6 +61,15 @@ export default function Navbar() {
               Web development
             </Link>
           </li>
+          <li className="nav-item">
+            <Link
+              className="nav-link"
+              to="/contact"
+              onClick={() => navClick("/contact")}
+            >
+              Contact
+            </Link>
+          </li>
         </ul>
         <div>
           <Link className="nav-link japanese" to="/">
