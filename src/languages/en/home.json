@@ -1,0 +1,15 @@
+{
+  "greeting": {
+    "line1": "I'm",
+    "line2": "Remi"
+  },
+  "title1": "Singer / Actor",
+  "details1": "Get to know me:",
+  "button1": "About me",
+  "title2": "Vocal coach",
+  "details2": "Details and student testimonials here:",
+  "button2": "See more",
+  "title3": "Web developer",
+  "details3": "Web design and development services for artists and small business owners:",
+  "button3": "Coming soon"
+}
