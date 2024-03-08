@@ -8,6 +8,8 @@ import enVoicecoach from "./languages/en/voicecoach.json";
 import enFooter from "./languages/en/footer.json";
 import jaNav from "./languages/ja/navbar.json";
 import jaHome from "./languages/ja/home.json";
+import jaAbout from "./languages/ja/about.json";
+import jaVoicecoach from "./languages/ja/voicecoach.json";
 import jaFooter from "./languages/ja/footer.json";
 
 export default i18n
@@ -31,6 +33,8 @@ export default i18n
         translation: {
           navbar: jaNav,
           home: jaHome,
+          about: jaAbout,
+          voicecoach: jaVoicecoach,
           footer: jaFooter,
         },
       },
