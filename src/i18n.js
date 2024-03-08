@@ -5,8 +5,10 @@ import enNav from "./languages/en/navbar.json";
 import enHome from "./languages/en/home.json";
 import enAbout from "./languages/en/about.json";
 import enVoicecoach from "./languages/en/voicecoach.json";
+import enFooter from "./languages/en/footer.json";
 import jaNav from "./languages/ja/navbar.json";
 import jaHome from "./languages/ja/home.json";
+import jaFooter from "./languages/ja/footer.json";
 
 export default i18n
   .use(LanguageDetector)
@@ -22,12 +24,14 @@ export default i18n
           home: enHome,
           about: enAbout,
           voicecoach: enVoicecoach,
+          footer: enFooter,
         },
       },
       ja: {
         translation: {
           navbar: jaNav,
           home: jaHome,
+          footer: jaFooter,
         },
       },
     },

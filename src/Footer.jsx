@@ -1,12 +1,15 @@
 import FormfacadeEmbed from "@formfacade.dev/embed-react";
+import { useTranslation } from "react-i18next";
 
 export default function Footer() {
+  const { t } = useTranslation();
   return (
     <div>
       <div className="row contact">
         <div className="col-md-6 d-none d-md-block">
           <h1 className="ps-5 mt-5 mb-2 mb-md-5">
-            Let's <span className="brand">get in touch!</span>
+            {t("footer.line1")}{" "}
+            <span className="brand">{t("footer.line2")}</span>
           </h1>
 
           <div className="d-flex ps-5">
@@ -57,7 +60,7 @@ export default function Footer() {
         </div>
         <div className="col-md-6 d-flex flex-column">
           <h2 className="d-block d-md-none my-4 pretty fs-1">
-            Let's get in touch!
+            {t("footer.mobile")}
           </h2>
           <div className="d-flex d-block d-md-none mb-3 justify-content-center">
             <a

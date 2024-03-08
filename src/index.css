@@ -233,8 +233,7 @@ footer {
   display: block;
 }
 #portfolio-rep-link:hover {
-  color: var(--brand-color);
-  font-weight: bold;
+  color: var(--highlight-color);
 }
 @media (hover: hover) {
   .overlay {
