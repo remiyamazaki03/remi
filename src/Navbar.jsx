@@ -1,4 +1,5 @@
 import { Link, useNavigate } from "react-router-dom";
+import Languageswitch from "./Languageswitch";
 
 export default function Navbar() {
   const navigate = useNavigate();
@@ -71,12 +72,7 @@ export default function Navbar() {
             </Link>
           </li>
         </ul>
-        <div>
-          <Link className="nav-link japanese" to="/">
-            日本語
-          </Link>
-          <div className="hide speech-bubble">準備中</div>
-        </div>
+        <Languageswitch />
       </div>
     </nav>
   );
