@@ -1,8 +1,10 @@
 import { Link, useNavigate } from "react-router-dom";
 import Languageswitch from "./Languageswitch";
+import { useTranslation } from "react-i18next";
 
 export default function Navbar() {
   const navigate = useNavigate();
+  const { t } = useTranslation();
   const closeMenu = () => {
     const navbar = document.getElementById("navbarNav");
     if (navbar.classList.contains("show")) {
@@ -41,7 +43,7 @@ export default function Navbar() {
               to="/about"
               onClick={() => navClick("/pages/about")}
             >
-              About me
+              {t("navbar.about")}
             </Link>
           </li>
           <li className="nav-item">
@@ -50,7 +52,7 @@ export default function Navbar() {
               to="/voicecoach"
               onClick={() => navClick("/pages/voicecoach")}
             >
-              Voice lessons
+              {t("navbar.voice")}
             </Link>
           </li>
           <li className="nav-item">
@@ -59,7 +61,7 @@ export default function Navbar() {
               to="/webdeveloper"
               onClick={() => navClick("/pages/webdeveloper")}
             >
-              Web development
+              {t("navbar.web")}
             </Link>
           </li>
           <li className="nav-item">
@@ -68,10 +70,11 @@ export default function Navbar() {
               to="/contact"
               onClick={() => navClick("/contact")}
             >
-              Contact
+              {t("navbar.contact")}
             </Link>
           </li>
         </ul>
+
         <Languageswitch />
       </div>
     </nav>

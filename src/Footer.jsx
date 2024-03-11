@@ -8,8 +8,7 @@ export default function Footer() {
       <div className="row contact">
         <div className="col-md-6 d-none d-md-block">
           <h1 className="ps-5 mt-5 mb-2 mb-md-5">
-            {t("footer.line1")}{" "}
-            <span className="brand">{t("footer.line2")}</span>
+            {t("footer.line1")} <div className="brand">{t("footer.line2")}</div>
           </h1>
 
           <div className="d-flex ps-5">

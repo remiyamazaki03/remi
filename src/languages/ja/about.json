@@ -1,14 +1,15 @@
 {
   "top": "自己紹介します...",
-  "greeting": "レミです！",
+  "greeting": "レミです🎤",
   "content": {
     "line1": "ホームページをご覧いただき、ありがとうございます 🥳",
-    "line2a": "I am a classically trained singer, with experience in musical theatre and pop (including JPop)... but my go-to genre is gospel. I direct the Union Praise Team (gospel and contemporary Christian choir) at ",
-    "line2b": "。",
-    "line3a": "I was born into a teachers' family and have been teaching for more than 15 years, and will always be an educator (empowerer!) at heart. I believe that <strong>everyone</strong> can sing, and that everyone has the right to be able to express themselves freely through song - and I love helping people achieve this through ",
-    "lessons": "voice lessons",
-    "line3b": "。",
-    "line4": "I'm from Japan and have lived here most of my life, but I've also lived in New York City where I performed at 54 Below (Off Broadway), with the Brooklyn Tabernacle Choir (gospel choir with 6 Grammy Awards), and at numerous jazz clubs around the city. Before that, I attended Princeton University, where I received training in French acting and earned a Bachelor's in Comparative Literature."
+    "line2": "横浜で生まれ育ち、大学はプリンストン大学へ留学しました。その後、ニューヨーク市で 54 Below（オフ・ブロードウェイ）や6つのグラミー賞の Brooklyn Tabernacle Choir（ゴスペルクワイア）、また、様々なジャズクラブや教会のクラシッククワイアで出演しました。",
+    "line3a": "クラシック音楽のトレーニングや体づくりをベースに、ポップスやミュージカルのパフォーマンス・ボイスレッスンを行いますが、個人的に一番好きなジャンルはゴスペルです。現在、",
+    "line3b": "でゴスペルクワイアのディレクターを務めさせていただいています。",
+
+    "line4a": "自分のパフォーマンスはもちろんですが、中学生から家の家庭教師のお仕事を手伝ってきた私は、",
+    "lessons": "ボイスレッスン",
+    "line4b": "を通じて、私が持っているすべてのツールを他の方へも教えて伝えることが大好きです。私は、<strong>みんな、</strong>素敵な歌声を持っていて、はっきする力を秘めていることを信じています。<br/>詳しくは下のフォームからご連絡ださい。お話しできることを楽しみにしています！"
   },
   "cta": "芸歴の詳細やボイスサンプルをお求めの場合は、下記フォームからお願いします。"
 }

@@ -21,7 +21,9 @@ export default function Home() {
           <h3 className="pretty">Hi!</h3>
           <h1 className="pretty">
             {t("home.greeting.line1")}
-            <div className="brand">{t("home.greeting.line2")}</div>
+            <div className="brand">
+              <Trans i18nKey="home.greeting.line2"></Trans>
+            </div>
           </h1>
         </div>
         <div className="col-lg-6 d-none d-md-block"></div>

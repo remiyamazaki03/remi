@@ -13,17 +13,17 @@ export default function About() {
           <p className="mt-4 bio ">
             {t("about.content.line1")} <br />
             <br />
-            {t("about.content.line2a")}
+            {t("about.content.line2")}
+            <br />
+            <br />
+            {t("about.content.line3a")}
             <Link to="https://www.tokyounion.org">Tokyo Union Church</Link>
-            {t("about.content.line2b")}
-            <br />
-            <br />
-            <Trans i18nKey="about.content.line3a"></Trans>
-            <Link to="/voicecoach">{t("about.content.lessons")}</Link>
             {t("about.content.line3b")}
             <br />
             <br />
-            {t("about.content.line4")}
+            <Trans i18nKey="about.content.line4a"></Trans>
+            <Link to="/voicecoach">{t("about.content.lessons")}</Link>
+            <Trans i18nKey="about.content.line4b"></Trans>
             <br />
             <br />
             <small>{t("about.cta")}</small>

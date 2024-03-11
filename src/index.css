@@ -220,17 +220,11 @@ footer {
   width: 0;
   height: 0;
 }
-.hide {
-  display: none;
-}
-.japanese {
+.language {
   margin-right: 60px;
 }
-.japanese:hover {
-  margin-right: none;
-}
-.japanese:hover + .hide {
-  display: block;
+.language:hover {
+  cursor: pointer;
 }
 #portfolio-rep-link:hover {
   color: var(--highlight-color);
