@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
-import aboutremi from "../images/aboutremi.jpg";
 import { useTranslation, Trans } from "react-i18next";
+import aboutremi from "../images/aboutremi.jpg";
 
 export default function About() {
   const { t } = useTranslation();
