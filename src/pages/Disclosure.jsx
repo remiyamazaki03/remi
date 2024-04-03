@@ -7,11 +7,11 @@ export default function Disclosure() {
         Commercial Disclosure・特定商取引法に基づく表示
       </h2>
       <p className="py-5 px-5 m-0 content2">
-        <div className="row">
+        <div className="row pb-2">
           <div className="col-4">販売業社の名称・Name</div>
           <div className="col-8">山﨑怜実 (Remi Yamazaki)</div>
         </div>
-        <div className="row">
+        <div className="row pb-2">
           <div className="col-4">所在地・Address</div>
           <div className="col-8">
             〒115-0045 東京都北区赤羽1-7-9 赤羽第一葉山ビル 4F
@@ -21,7 +21,7 @@ export default function Disclosure() {
             Akabane, Kita-ku, Tokyo 115-0045
           </div>
         </div>
-        <div className="row">
+        <div className="row pb-2">
           <div className="col-4">電話番号・Phone number</div>
           <div className="col-8">
             お電話でのお問い合わせは承っておりません。
@@ -37,15 +37,15 @@ export default function Disclosure() {
             with the Specified Commercial Transaction Law.
           </div>
         </div>
-        <div className="row">
+        <div className="row pb-2">
           <div className="col-4">メールアドレス・Email</div>
           <div className="col-8">hello03remi@gmail.com</div>
         </div>
-        <div className="row">
+        <div className="row pb-2">
           <div className="col-4">運営責任者名・Principal</div>
           <div className="col-8">山﨑怜実 (Remi Yamazaki)</div>
         </div>
-        <div className="row">
+        <div className="row pb-2">
           <div className="col-4">追加手数料等の追加料金・Additional fees</div>
           <div className="col-8">
             銀行振込の場合は、銀行の振込手数料。両替も含む場合は、銀行の両替手数料。
@@ -54,7 +54,7 @@ export default function Disclosure() {
             transfer and/or currency exchange.
           </div>
         </div>
-        <div className="row">
+        <div className="row pb-2">
           <div className="col-4">
             キャンセルや返金ポリシー・Cancellation and refund policies
           </div>
@@ -66,7 +66,7 @@ export default function Disclosure() {
             </a>
           </div>
         </div>
-        <div className="row">
+        <div className="row pb-2">
           <div className="col-4">引渡時期・Delivery times</div>
           <div className="col-8">
             上記URLのポリシーに従い、双方の合意された日時にてサービス提供。
@@ -74,7 +74,7 @@ export default function Disclosure() {
             in accordance with the policies listed in the link above.
           </div>
         </div>
-        <div className="row">
+        <div className="row pb-2">
           <div className="col-4">
             受け付け可能な決済手段・Accepted payment methods
           </div>
@@ -83,7 +83,7 @@ export default function Disclosure() {
             policies link.
           </div>
         </div>
-        <div className="row">
+        <div className="row pb-2">
           <div className="col-4">決済期間・Payment period</div>
           <div className="col-8">
             上記ポリシーのURLをご参照ください。Please refer to the above
