@@ -1,8 +1,16 @@
-import FormfacadeEmbed from "@formfacade.dev/embed-react";
 import { useTranslation } from "react-i18next";
+import { Link } from "react-router-dom";
+import FormfacadeEmbed from "@formfacade.dev/embed-react";
 
 export default function Footer() {
   const { t } = useTranslation();
+  const click = (to) => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+    closeMenu();
+    if (to) {
+      navigate(to);
+    }
+  };
   return (
     <div>
       <div className="row contact">
@@ -121,12 +129,19 @@ export default function Footer() {
           © 2024 &nbsp;
           <a
             href="https://github.com/remiyamazaki03/portfolio"
-            id="portfolio-rep-link"
-            className="brand"
+            className="brand footer-link"
           >
             Open-source code
           </a>
-          &nbsp; by <span className="fw-bold">Remi Yamazaki</span>
+          &nbsp; by <span className="fw-bold">Remi Yamazaki</span>&nbsp; |
+          &nbsp;&nbsp;
+          <Link
+            to={"/disclosure"}
+            className="brand footer-link"
+            onClick={() => click("/disclosure")}
+          >
+            {t("footer.disclosure")}
+          </Link>
         </div>
       </footer>
     </div>

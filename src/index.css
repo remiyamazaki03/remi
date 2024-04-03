@@ -226,7 +226,7 @@ footer {
 .language:hover {
   cursor: pointer;
 }
-#portfolio-rep-link:hover {
+.footer-link:hover {
   color: var(--highlight-color);
 }
 @media (hover: hover) {

@@ -1,8 +1,8 @@
 import { Link, useNavigate } from "react-router-dom";
+import { useTranslation, Trans } from "react-i18next";
 import singer from "./images/Remi-singer.jpg";
 import microphone from "./images/microphone.jpg";
 import developer from "./images/Remi-developer.jpg";
-import { useTranslation, Trans } from "react-i18next";
 
 export default function Home() {
   const navigate = useNavigate();

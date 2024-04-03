@@ -93,7 +93,7 @@ export default function Voicecoach() {
             </div>
           </div>
         </div>
-        <div className="row pricing">
+        <div className="row pricing" id="pricing">
           <div className="col-md-9">
             <div>
               <h2 className="text-center pt-5 text-decoration-underline">

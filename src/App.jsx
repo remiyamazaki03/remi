@@ -4,6 +4,7 @@ import About from "./pages/About";
 import Voicecoach from "./pages/Voicecoach";
 import Webdeveloper from "./pages/Webdeveloper";
 import Blank from "./pages/Blank";
+import Disclosure from "./pages/Disclosure";
 
 export default function App() {
   return (
@@ -14,6 +15,7 @@ export default function App() {
         <Route path="/voicecoach" element={<Voicecoach />} />{" "}
         <Route path="/webdeveloper" element={<Webdeveloper />} />
         <Route path="/contact" element={<Blank />} />
+        <Route path="/disclosure" element={<Disclosure />} />
       </Routes>
     </div>
   );
