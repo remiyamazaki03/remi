@@ -97,8 +97,10 @@ export default function Disclosure() {
         <div className="row">
           <div className="col-4">販売価格・Pricing</div>
           <div className="col-8">
-            下記のボイストレーニングページに料金情報がございます。Please refer
-            to the pricing information on <a href="/voicecoach">this page.</a>
+            下記のボイストレーニングページに料金情報がございます。
+            <br />
+            Please refer to the pricing information on{" "}
+            <a href="/voicecoach">this page.</a>
           </div>
         </div>
       </p>
