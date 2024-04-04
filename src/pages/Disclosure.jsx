@@ -12,6 +12,10 @@ export default function Disclosure() {
           <div className="col-8">山﨑怜実 (Remi Yamazaki)</div>
         </div>
         <div className="row pb-2">
+          <div className="col-4">屋号・Business name</div>
+          <div className="col-8">スタジオカメレオン・Chameleon Studios</div>
+        </div>
+        <div className="row pb-2">
           <div className="col-4">所在地・Address</div>
           <div className="col-8">
             〒115-0045 東京都北区赤羽1-7-9 赤羽第一葉山ビル 4F
