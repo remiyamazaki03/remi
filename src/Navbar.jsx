@@ -74,8 +74,7 @@ export default function Navbar() {
             </Link>
           </li>
         </ul>
-
-        <Languageswitch />
+        <Languageswitch onClick={closeMenu} />
       </div>
     </nav>
   );

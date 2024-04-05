@@ -1,7 +1,7 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
 
-export default function Languageswitch() {
+export default function Languageswitch({ onClick }) {
   const { i18n } = useTranslation();
   const handleClick = () => {
     if (i18n.language === "en") {
@@ -9,6 +9,7 @@ export default function Languageswitch() {
     } else {
       i18n.changeLanguage("en");
     }
+    onClick();
   };
   return (
     <div className="nav-link language" onClick={handleClick}>
