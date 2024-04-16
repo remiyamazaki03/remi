@@ -54,8 +54,12 @@ export default function Disclosure() {
           <div className="col-8">
             銀行振込の場合は、銀行の振込手数料。両替も含む場合は、銀行の両替手数料。
             <br />
+            対面式レッスンの場合、レッスン当日の8日前以降にキャンセル・日時変更を行った場合に、キャンセル・変更手数料発生する場合がございます。
+            <br />
             For wire transfers, your bank may charge additional fees for
-            transfer and/or currency exchange.
+            transfer and/or currency exchange. <br /> For in person lessons, if
+            a lesson is cancelled or moved less than 8 days prior to the
+            scheduled date, cancellation/administration fees may apply.
           </div>
         </div>
         <div className="row pb-2">
