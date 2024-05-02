@@ -142,9 +142,9 @@ export default function Voicecoach() {
                   </ul>
                 </li>
               </ul>
-              <p className="text-center ps-5 pe-2 px-md-5 pb-3 fw-bold">
+              <p className="text-start text-xl-center ms-md-5 ps-5 pe-2 me-5 px-md-5 pb-3 fw-bold">
                 {t("voicecoach.cta.line1")}
-                <br className="d-xl-none" />
+                <br className="d-lg-none" />
                 <Trans i18nKey="voicecoach.cta.line2"></Trans>
               </p>
             </div>
