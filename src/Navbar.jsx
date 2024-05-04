@@ -46,6 +46,7 @@ export default function Navbar() {
               {t("navbar.about")}
             </Link>
           </li>
+
           <li className="nav-item">
             <Link
               className="nav-link"
