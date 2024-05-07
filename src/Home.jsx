@@ -18,8 +18,8 @@ export default function Home() {
     <div>
       <div className="hero row">
         <div className="col-lg-6 name">
-          <h3 className="pretty">Hi!</h3>
-          <h1 className="pretty">
+          <h3 className="highlight homepage">Hi!</h3>
+          <h1 className="highlight homepage">
             {t("home.greeting.line1")}
             <div className="brand">
               <Trans i18nKey="home.greeting.line2"></Trans>
@@ -33,7 +33,9 @@ export default function Home() {
           <img className="img-fluid" src={singer} alt="Remi singer" />
           <div className="overlay">
             <h2 className="overlayTitle">{t("home.title1")}</h2>
-            <p className="p-5 text-center fs-4">{t("home.details1")}</p>
+            <h3 className="p-5 text-center fs-4 subheader">
+              {t("home.details1")}
+            </h3>
             <Link
               to="/about"
               className="launch-button"
@@ -47,7 +49,9 @@ export default function Home() {
           <img className="img-fluid" src={microphone} alt="microphone" />
           <div className="overlay" id="vocal-overlay">
             <h2 className="overlayTitle">{t("home.title2")}</h2>
-            <p className="p-5 text-center fs-4">{t("home.details2")}</p>
+            <h3 className="p-5 text-center fs-4 subheader">
+              {t("home.details2")}
+            </h3>
             <Link
               to="/voicecoach"
               className="launch-button"
@@ -62,7 +66,9 @@ export default function Home() {
           <img className="img-fluid" src={developer} alt="Remi profile" />
           <div className="overlay">
             <h2 className="overlayTitle">{t("home.title3")}</h2>
-            <p className="p-4 text-center fs-4">{t("home.details3")}</p>
+            <h3 className="p-4 text-center fs-4 subheader">
+              {t("home.details3")}
+            </h3>
 
             <Link
               to="/webdeveloper"

@@ -20,7 +20,7 @@ export default function Navbar() {
   };
 
   return (
-    <nav className="navbar navbar-expand-sm navbar-light fixed-top navbar-css">
+    <nav className="navbar navbar-expand-md navbar-light fixed-top navbar-css">
       <Link className="navbar-brand ms-3" to="/" onClick={() => navClick("/")}>
         Remi
       </Link>
@@ -36,7 +36,7 @@ export default function Navbar() {
         <span className="navbar-toggler-icon"></span>
       </button>
       <div className="collapse navbar-collapse" id="navbarNav">
-        <ul className="navbar-nav me-auto">
+        <ul className="navbar-nav me-auto navul">
           <li className="nav-item mx-0">
             <Link
               className="nav-link"

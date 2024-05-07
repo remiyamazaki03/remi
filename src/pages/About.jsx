@@ -17,12 +17,26 @@ export default function About() {
             <br />
             <br />
             {t("about.content.line3a")}
-            <Link to="https://www.tokyounion.org">Tokyo Union Church</Link>
+            <Link
+              to="https://www.tokyounion.org"
+              style={{
+                color: "#6347ff",
+              }}
+            >
+              Tokyo Union Church
+            </Link>
             {t("about.content.line3b")}
             <br />
             <br />
             <Trans i18nKey="about.content.line4a"></Trans>
-            <Link to="/voicecoach">{t("about.content.lessons")}</Link>
+            <Link
+              to="/voicecoach"
+              style={{
+                color: "#6347ff",
+              }}
+            >
+              {t("about.content.lessons")}
+            </Link>
             <Trans i18nKey="about.content.line4b"></Trans>
             <br />
             <br />

@@ -15,7 +15,7 @@ export default function Footer() {
     <div>
       <div className="row contact">
         <div className="col-md-6 d-none d-md-block">
-          <h1 className="ps-5 mt-5 mb-2 mb-md-5">
+          <h1 className="ps-5 mt-5 mb-2 mb-md-5 homepage">
             {t("footer.line1")} <div className="brand">{t("footer.line2")}</div>
           </h1>
 
@@ -61,12 +61,12 @@ export default function Footer() {
               <i className="fa-brands fa-github github-logo"></i>
             </a>
           </div>
-          <div className="mt-4 mb-2 mb-md-5 pretty ps-5">
+          <p className="mt-4 mb-2 mb-md-5 highlight ps-5">
             email: hello03remi@gmail.com
-          </div>
+          </p>
         </div>
         <div className="col-md-6 d-flex flex-column">
-          <h2 className="d-block d-md-none my-4 pretty fs-1">
+          <h2 className="d-block d-md-none my-4 highlight fs-1">
             {t("footer.mobile")}
           </h2>
           <div className="d-flex d-block d-md-none mb-3 justify-content-center">

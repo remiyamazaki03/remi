@@ -6,13 +6,20 @@
   --highlight-color: #8763ff;
   --secondary-background-color: #d2cce5;
 }
-h1 {
-  font-size: 96px !important;
+h1.homepage {
+  font-size: 96px;
 }
-h3 {
-  font-size: 48px !important;
+h3.homepage {
+  font-size: 48px;
 }
-ul {
+h3.subheader {
+  font-size: 28px;
+}
+p,
+ul.prices {
+  font-size: 20px;
+}
+.navul {
   line-height: 200%;
 }
 li {
@@ -21,6 +28,9 @@ li {
 
 .brand {
   color: var(--brand-color);
+}
+.highlight {
+  color: var(--secondary-color);
 }
 .mainList {
   list-style-type: none;
@@ -85,7 +95,7 @@ footer {
 .title {
   height: 16.5rem;
   padding-top: 75px;
-  padding-left: 180px;
+  padding-left: 15%;
   background-color: var(--main-background-color);
   color: var(--secondary-color);
   background-image: url(/src/images/microphone.jpg);
@@ -96,9 +106,11 @@ footer {
 }
 .content {
   background-color: var(--secondary-color);
+  height: 100vh;
 }
 .content2 {
   background-color: var(--secondary-background-color);
+  height: 100vh;
 }
 .pricing {
   background-color: var(--secondary-background-color);
@@ -106,6 +118,7 @@ footer {
   background-repeat: no-repeat;
   background-size: contain;
   background-position: 100%;
+  height: 100vh;
 }
 .contact {
   background-color: var(--main-background-color);
@@ -131,9 +144,7 @@ footer {
   left: 0;
   background-color: var(--overlay-color);
 }
-.overlay p {
-  font-size: 28px;
-}
+
 .launch-button {
   background-color: var(--main-background-color);
   color: var(--brand-color);
@@ -255,6 +266,11 @@ footer {
   .pricing {
     background-image: none;
   }
+  .content,
+  .content2,
+  .pricing {
+    height: fit-content;
+  }
 }
 @media (max-width: 768px) {
   h1,
@@ -279,7 +295,11 @@ footer {
     background-image: none;
     padding-right: 15%;
   }
-
+  .content,
+  .content2,
+  .pricing {
+    height: fit-content;
+  }
   .contact {
     padding-top: 35px;
     padding-right: 7.5%;
@@ -294,11 +314,13 @@ footer {
   footer {
     font-size: 10px;
   }
+  .underline {
+    color: var(--brand-color);
+  }
   .title {
     height: fit-content;
     background-position-y: 2.5rem;
     padding-bottom: 25px;
-    padding-left: 45px;
   }
   .blurry {
     background-image: none;

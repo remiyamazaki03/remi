@@ -11,8 +11,8 @@ export default function Voicecoach() {
         {t("voicecoach.top")}
       </h2>
       <div className="p-0 m-0">
-        <div className="row py-1 px-md-5 content">
-          <div className="col-md-4 d-flex align-items-center">
+        <div className="row py-1 px-md-5 content d-flex align-items-center">
+          <div className="col-md-4 ">
             <img
               src={heart}
               alt="heartbeat"
@@ -26,8 +26,9 @@ export default function Voicecoach() {
                 alt="heartbeat"
                 className="img-fluid d-block mt-4 d-md-none w-25"
               />
+
               <h2 className="text-center pt-md-5">{t("voicecoach.case1")}</h2>
-              <p className="text-md-center px-5 pb-4">
+              <p className="text-md-center px-5 pb-4 fs-lg-5">
                 <br />
                 <Trans i18nKey="voicecoach.testimonial1"></Trans>
                 <br /> <br />
@@ -36,7 +37,7 @@ export default function Voicecoach() {
             </div>
           </div>
         </div>
-        <div className="row py-1 px-md-5 content2">
+        <div className="row py-1 px-md-5 content2 d-flex align-items-center">
           <div className="col-md-8">
             <div>
               <img
@@ -58,7 +59,7 @@ export default function Voicecoach() {
               <br />
             </div>
           </div>
-          <div className="col-md-4 d-flex align-items-center">
+          <div className="col-md-4">
             <img
               src={colors}
               alt="expand your palette"
@@ -66,8 +67,8 @@ export default function Voicecoach() {
             />
           </div>
         </div>
-        <div className="row py-1 px-md-5 content">
-          <div className="col-md-4 d-flex align-items-center">
+        <div className="row py-1 px-md-5 content d-flex align-items-center">
+          <div className="col-md-4 ">
             <img
               src={stage}
               alt="show off your singing"
@@ -93,19 +94,20 @@ export default function Voicecoach() {
             </div>
           </div>
         </div>
-        <div className="row pricing" id="pricing">
+        <div className="row pricing d-flex align-items-center" id="pricing">
           <div className="col-md-9">
             <div>
               <h2 className="text-center pt-5 text-decoration-underline">
                 {t("voicecoach.pricing")}
               </h2>
-              <ul className="ps-0 py-3 px-md-5 mx-5">
+              <ul className="ps-0 py-3 px-md-5 mx-5 prices">
                 <li className="mainList">
                   {t("voicecoach.price1")}
                   <ul className="subList">
                     <li>{t("voicecoach.menu1")}</li>
                     <li>{t("voicecoach.menu2")}</li>
                   </ul>
+                  <br />
                 </li>
                 <li className="mainList">{t("voicecoach.price2")}</li>
                 <ul className="subList">
@@ -125,7 +127,8 @@ export default function Voicecoach() {
                   <li>
                     <Trans i18nKey="voicecoach.menu4"></Trans>
                   </li>
-                </ul>
+                </ul>{" "}
+                <br />
                 <li className="mainList">
                   {t("voicecoach.price3")}
                   <ul className="subList">
@@ -133,7 +136,8 @@ export default function Voicecoach() {
                       <Trans i18nKey="voicecoach.menu5"></Trans>
                     </li>
                     <li>{t("voicecoach.menu6")}</li>
-                  </ul>
+                  </ul>{" "}
+                  <br />
                 </li>
                 <li className="mainList">
                   {t("voicecoach.price4")}
