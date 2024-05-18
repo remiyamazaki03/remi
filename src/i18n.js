@@ -14,15 +14,12 @@ import jaVoicecoach from "./languages/ja/voicecoach.json";
 import jaFooter from "./languages/ja/footer.json";
 import jaWebdeveloper from "./languages/ja/webdeveloper.json";
 
-const currentLanguage = window.localStorage.getItem("i18nextLng") || "en";
-const fallbackLanguage = currentLanguage === "en" ? "ja" : "en";
-
 export default i18n
   .use(LanguageDetector)
   .use(initReactI18next)
   .init({
     debug: true,
-    fallbackLng: fallbackLanguage,
+    fallbackLng: "en",
     returnObjects: true,
     resources: {
       en: {
