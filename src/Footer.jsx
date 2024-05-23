@@ -128,7 +128,7 @@ export default function Footer() {
         <div className="brand pt-2">
           © 2024 &nbsp;
           <a
-            href="https://github.com/remiyamazaki03/portfolio"
+            href="https://github.com/remiyamazaki03/remi"
             className="brand footer-link"
           >
             Open-source code
