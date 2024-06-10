@@ -111,19 +111,7 @@ export default function Voicecoach() {
                 </li>
                 <li className="mainList">{t("voicecoach.price2")}</li>
                 <ul className="subList">
-                  <li>
-                    {t("voicecoach.menu3")}
-                    {t("voicecoach.menu3c1")}
-                    <a
-                      href="https://www.exchange-rates.org/converter/jpy-usd/4500"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      {t("voicecoach.menu3c2")}
-                    </a>
-
-                    {t("voicecoach.menu3c3")}
-                  </li>
+                  <li>{t("voicecoach.menu3")}</li>
                   <li>
                     <Trans i18nKey="voicecoach.menu4"></Trans>
                   </li>
