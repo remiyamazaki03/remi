@@ -106,11 +106,11 @@ footer {
 }
 .content {
   background-color: var(--secondary-color);
-  height: 100vh;
+  min-height: 100vh;
 }
 .content2 {
   background-color: var(--secondary-background-color);
-  height: 100vh;
+  min-height: 100vh;
 }
 .pricing {
   background-color: var(--secondary-background-color);
@@ -118,7 +118,7 @@ footer {
   background-repeat: no-repeat;
   background-size: contain;
   background-position: 100%;
-  height: 100vh;
+  min-height: 100vh;
 }
 .contact {
   background-color: var(--main-background-color);

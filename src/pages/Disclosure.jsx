@@ -6,7 +6,7 @@ export default function Disclosure() {
       <h2 className="title m-0 d-flex align-items-center">
         Commercial Disclosure・特定商取引法に基づく表示
       </h2>
-      <p className="py-5 px-5 m-0 content2">
+      <div className="py-5 px-5 m-0 content2">
         <div className="row pb-2">
           <div className="col-4">販売業社の名称・Name</div>
           <div className="col-8">山﨑怜実 (Remi Yamazaki)</div>
@@ -107,7 +107,7 @@ export default function Disclosure() {
             <a href="/voicecoach">this page.</a>
           </div>
         </div>
-      </p>
+      </div>
     </div>
   );
 }
