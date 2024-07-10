@@ -6,6 +6,7 @@ import Videocourse from "./pages/Videocourse";
 import Webdeveloper from "./pages/Webdeveloper";
 import Blank from "./pages/Blank";
 import Disclosure from "./pages/Disclosure";
+import Policies from "./pages/Policies";
 
 export default function App() {
   return (
@@ -18,6 +19,7 @@ export default function App() {
         <Route path="/webdeveloper" element={<Webdeveloper />} />
         <Route path="/contact" element={<Blank />} />
         <Route path="/disclosure" element={<Disclosure />} />
+        <Route path="/policies" element={<Policies />} />
       </Routes>
     </div>
   );
