@@ -95,7 +95,7 @@ export default function Voicecoach() {
           </div>
         </div>
         <div className="row pricing d-flex align-items-center" id="pricing">
-          <div className="col-md-9">
+          <div className="col-xl-9">
             <div>
               <h2 className="text-center pt-5 text-decoration-underline">
                 {t("voicecoach.pricing")}
@@ -141,7 +141,7 @@ export default function Voicecoach() {
               </p>
             </div>
           </div>
-          <div className="col-md-3 d-none d-md-block"></div>
+          <div className="col-md-3 d-none d-xl-block"></div>
         </div>
       </div>
     </div>
