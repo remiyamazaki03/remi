@@ -126,7 +126,7 @@ footer {
 }
 .demo {
   background-color: white;
-  margin: 0em 5em 2em 5em;
+  margin: 0rem 5rem 2rem 5rem;
   padding: 2em;
   border-radius: 4px;
   transition: transform 0.3s ease;
@@ -345,5 +345,8 @@ footer {
   }
   .bio {
     font-size: 4.5vw;
+  }
+  .demo {
+    margin: 0rem 3rem 2rem 3rem;
   }
 }
