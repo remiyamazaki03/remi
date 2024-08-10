@@ -1,8 +1,5 @@
 import { Link, useNavigate } from "react-router-dom";
 import { useTranslation, Trans } from "react-i18next";
-import singer from "./images/Remi-singer.jpg";
-import microphone from "./images/microphone.jpg";
-import developer from "./images/Remi-developer.jpg";
 
 export default function Home() {
   const navigate = useNavigate();
@@ -30,7 +27,11 @@ export default function Home() {
       </div>
       <div className="row" id="work">
         <div className="col-md-4 p-0 work-img">
-          <img className="img-fluid" src={singer} alt="Remi singer" />
+          <img
+            className="img-fluid"
+            src="/images/Remi-singer.jpg"
+            alt="Remi singer"
+          />
           <div className="overlay">
             <h2 className="overlayTitle">{t("home.title1")}</h2>
             <h3 className="p-5 text-center fs-4 subheader">
@@ -46,7 +47,11 @@ export default function Home() {
           </div>
         </div>
         <div className="col-md-4 p-0 work-img">
-          <img className="img-fluid" src={microphone} alt="microphone" />
+          <img
+            className="img-fluid"
+            src="/images/microphone.jpg"
+            alt="microphone"
+          />
           <div className="overlay" id="vocal-overlay">
             <h2 className="overlayTitle">{t("home.title2")}</h2>
             <h3 className="p-5 text-center fs-4 subheader">
@@ -63,7 +68,11 @@ export default function Home() {
           </div>
         </div>
         <div className="col-md-4 p-0 work-img">
-          <img className="img-fluid" src={developer} alt="Remi profile" />
+          <img
+            className="img-fluid"
+            src="/images/Remi-developer.jpg"
+            alt="Remi profile"
+          />
           <div className="overlay">
             <h2 className="overlayTitle">{t("home.title3")}</h2>
             <h3 className="p-4 text-center fs-4 subheader">

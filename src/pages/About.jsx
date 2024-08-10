@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
 import { useTranslation, Trans } from "react-i18next";
-import aboutremi from "../images/aboutremi.jpg";
 
 export default function About() {
   const { t } = useTranslation();
@@ -45,7 +44,7 @@ export default function About() {
         </div>
         <img
           className="img-fluid col-md-4 p-0 h-100 d-none d-md-block"
-          src={aboutremi}
+          src="/images/aboutremi.jpg"
           alt="Remi"
         />
       </div>

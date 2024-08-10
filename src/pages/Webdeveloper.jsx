@@ -1,8 +1,4 @@
 import { useTranslation, Trans } from "react-i18next";
-import bwave from "../images/bwave-demo.png";
-import dtokyo from "../images/dtokyo-demo.png";
-import bwavemobile from "../images/bwavemobile.jpg";
-import dtokyomobile from "../images/dtokyomobile.jpg";
 
 export default function Webdeveloper() {
   const { t } = useTranslation();
@@ -25,12 +21,12 @@ export default function Webdeveloper() {
 
                 <img
                   className="img-fluid mt-4 mb-4 demo-thumbnail d-none d-md-block"
-                  src={bwave}
+                  src="/images/bwave-demo.png"
                   alt="bwave ホームページ デモ"
                 />
                 <img
                   className="img-fluid mt-4 mb-4 demo-thumbnail d-md-none"
-                  src={bwavemobile}
+                  src="/images/bwavemobile.jpg"
                   alt="bwave ホームページ デモ"
                 />
               </a>
@@ -46,12 +42,12 @@ export default function Webdeveloper() {
                 </h2>
                 <img
                   className="img-fluid mt-4 mb-4 demo-thumbnail d-none d-md-block"
-                  src={dtokyo}
+                  src="/images/dtokyo-demo.png"
                   alt="dtokyo ホームページ デモ"
                 />
                 <img
                   className="img-fluid mt-4 mb-4 demo-thumbnail d-md-none"
-                  src={dtokyomobile}
+                  src="/images/dtokyomobile.jpg"
                   alt="dtokyo ホームページ デモ"
                 />
               </a>

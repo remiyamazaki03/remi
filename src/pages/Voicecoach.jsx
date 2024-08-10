@@ -1,7 +1,4 @@
 import { useTranslation, Trans } from "react-i18next";
-import heart from "../images/heart.jpg";
-import colors from "../images/colors.jpg";
-import stage from "../images/stage.jpg";
 
 export default function Voicecoach() {
   const { t } = useTranslation();
@@ -14,7 +11,7 @@ export default function Voicecoach() {
         <div className="row py-1 px-md-5 content d-flex align-items-center">
           <div className="col-md-4 ">
             <img
-              src={heart}
+              src="/images/heart.jpg"
               alt="heartbeat"
               className="img-fluid p-4 d-none d-md-block"
             />
@@ -22,7 +19,7 @@ export default function Voicecoach() {
           <div className="col-md-8">
             <div>
               <img
-                src={heart}
+                src="/images/heart.jpg"
                 alt="heartbeat"
                 className="img-fluid d-block mt-4 d-md-none w-25"
               />
@@ -41,7 +38,7 @@ export default function Voicecoach() {
           <div className="col-md-8">
             <div>
               <img
-                src={colors}
+                src="/images/colors.jpg"
                 alt="expand your palette"
                 className="img-fluid d-block mt-4 d-md-none w-25 pb-3"
               />
@@ -61,7 +58,7 @@ export default function Voicecoach() {
           </div>
           <div className="col-md-4">
             <img
-              src={colors}
+              src="/images/colors.jpg"
               alt="expand your palette"
               className="img-fluid p-5 d-none d-md-block"
             />
@@ -70,7 +67,7 @@ export default function Voicecoach() {
         <div className="row py-1 px-md-5 content d-flex align-items-center">
           <div className="col-md-4 ">
             <img
-              src={stage}
+              src="/images/stage.jpg"
               alt="show off your singing"
               className="img-fluid blurry d-none d-md-block"
             />
@@ -78,7 +75,7 @@ export default function Voicecoach() {
           <div className="col-md-8">
             <div>
               <img
-                src={stage}
+                src="/images/stage.jpg"
                 alt="show off your singing"
                 className="img-fluid blurry d-block mt-4 d-md-none"
               />
