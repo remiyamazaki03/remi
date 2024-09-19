@@ -254,6 +254,10 @@ footer {
 .footer-link:hover {
   color: var(--highlight-color);
 }
+.ff-secfields {
+  display: flex !important;
+  flex-direction: column;
+}
 @media (hover: hover) {
   .overlay {
     opacity: 0;
