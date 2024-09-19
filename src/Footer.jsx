@@ -1,6 +1,6 @@
 import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
-import FormfacadeEmbed from "@formfacade.dev/embed-react";
+import FormfacadeEmbed from "@formfacade/embed-react";
 
 export default function Footer() {
   const { t } = useTranslation();
@@ -117,9 +117,7 @@ export default function Footer() {
           <div className="me-sm-5">
             <FormfacadeEmbed
               formFacadeURL="https://formfacade.com/include/100240402409090706097/form/1FAIpQLScGNmvJZi7y5zQztyhrSeGIe_HVPr-uCRwYfh4U0UDX8XQXtA/classic.js/?div=ff-compose"
-              onSubmitForm={() => {
-                alert("Form Submitted");
-              }}
+              onSubmitForm={() => console.log("Form submitted")}
             />
           </div>
         </div>
