@@ -10,12 +10,14 @@ export default function About() {
         <div className="col-md-8 p-5">
           <h2 className="mt-2 fs-3">{t("about.greeting")}</h2>
           <p className="mt-4 bio ">
-            {t("about.content.line1")} <br />
+            {t("about.content.line1")}
+            <br />
             <br />
             {t("about.content.line2")}
             <br />
             <br />
             {t("about.content.line3a")}
+
             <Link
               to="https://www.tokyounion.org"
               style={{
@@ -27,7 +29,10 @@ export default function About() {
             {t("about.content.line3b")}
             <br />
             <br />
-            <Trans i18nKey="about.content.line4a"></Trans>
+            {t("about.content.line4")}
+            <br />
+            <br />
+            <Trans i18nKey="about.content.line5a"></Trans>
             <Link
               to="/voicecoach"
               style={{
@@ -36,7 +41,7 @@ export default function About() {
             >
               {t("about.content.lessons")}
             </Link>
-            <Trans i18nKey="about.content.line4b"></Trans>
+            <Trans i18nKey="about.content.line5b"></Trans>
             <br />
             <br />
             <small>{t("about.cta")}</small>

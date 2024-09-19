@@ -2,15 +2,14 @@
   "top": "About me",
   "greeting": "Hi, I'm Remi!",
   "content": {
-    "line1": "Thank you for visiting my page 🥳",
-    "line2": "I'm from Japan and have lived here most of my life, but I've also lived in New York City where I performed at 54 Below (Off Broadway), with the Brooklyn Tabernacle Choir (gospel choir with 6 Grammy Awards), and at numerous jazz clubs around the city including Silvana and WhyNot Jazz Room. Before that, I attended Princeton University, where I received training in French acting and earned a Bachelor's in Comparative Literature.",
-
-    "line3a": "I am a classically trained singer, with experience in musical theatre and pop (including JPop)... but my go-to genre is gospel. I direct the Union Praise Team (gospel and contemporary Christian choir) at ",
+    "line1": "Remi is a classically trained versatile vocalist who has performed in classical choirs in Vienna, a Grammy Award-winning gospel choir, Off Broadway musicals and several jazz clubs in New York City.",
+    "line2": "After graduating from Yokohama International School, she received her Bachelor's in Comparative Literature from Princeton University, where she also received training in French acting.",
+    "line3a": "Back in Tokyo, she has continued classical choral singing and has also performed in live concerts featuring pop/Jpop music. She currently directs a contemporary/gospel choir at ",
     "line3b": ".",
-
-    "line4a": "I was born into a teachers' family and have been teaching for more than 15 years, and will always be an educator (empowerer!) at heart. I believe that <strong>everyone</strong> can sing, and that everyone has the right to be able to express themselves freely through song - and I love helping people achieve this through ",
-    "lessons": "voice lessons",
-    "line4b": ". <br/>Please fill out the form below to get in touch. I look forward to connecting!"
+    "line4": "Remi was born into a teachers' family and has been teaching for about 15 years. Her teaching experience includes directing a children's program (ages 4+) and training teachers.",
+    "line5a": "Vocal command and agility requires complex inner muscle coordination - and the best way to engage these muscles is by being silly! Her ",
+    "lessons": "vocal students",
+    "line5b": " have a wonderful time and her lessons are often the highlight of their week. (Her vocal lessons are most suitable for children ages 8 and up.)"
   },
   "cta": "For a detailed performance/arts resume or for voice samples, please contact me via the form below."
 }
