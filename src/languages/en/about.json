@@ -1,4 +1,9 @@
 {
+  "tags": {
+    "title": "About Remi",
+    "description": "About Remi",
+    "keywords": "gospel singer, Chameleon Studios, Remi, classical, Remi Yamazaki, gospel choir director, international, Tokyo"
+  },
   "top": "About me",
   "greeting": "Hi, I'm Remi!",
   "content": {
@@ -7,9 +12,9 @@
     "line3a": "Back in Tokyo, she has continued classical choral singing and has also performed in live concerts featuring pop/Jpop music. She currently directs a contemporary/gospel choir at ",
     "line3b": ".",
     "line4": "Remi was born into a teachers' family and has been teaching for about 15 years. Her teaching experience includes directing a children's program (ages 4+) and training teachers.",
-    "line5a": "Vocal command and agility requires complex inner muscle coordination - and the best way to engage these muscles is by being silly! Her ",
-    "lessons": "vocal students",
-    "line5b": " at Chameleon Studios (owner & director) have a wonderful time and her lessons are often the highlight of their week. (Her vocal lessons are most suitable for children ages 8 and up.)"
+    "line5a": "Vocal command and agility requires complex inner muscle coordination - and the best way to engage these muscles is by being silly! Her vocal students at ",
+    "lessons": "Chameleon Studios",
+    "line5b": " have a wonderful time and her lessons are often the highlight of their week. (Her vocal lessons are most suitable for children ages 8 and up.)"
   },
   "cta": "For a detailed performance/arts resume or for voice samples, please contact me via the form below."
 }

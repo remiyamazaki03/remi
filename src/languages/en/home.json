@@ -1,4 +1,9 @@
 {
+  "tags": {
+    "title": "Chameleon Studios",
+    "description": "Chameleon Studios by Remi",
+    "keywords": "English voice lessons, online vocal coaching, singing lessons in Tokyo, Chameleon Studios, Remi, Remi Yamazaki, classical, gospel choir director"
+  },
   "greeting": {
     "line1": "I'm",
     "line2": "Remi"
@@ -11,5 +16,5 @@
   "button2": "See more",
   "title3": "Web developer",
   "details3": "Web design and development services for artists and small business owners:",
-  "button3": "Coming soon"
+  "button3": "See more"
 }

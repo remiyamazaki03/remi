@@ -1,5 +1,6 @@
 import { Link, useNavigate } from "react-router-dom";
 import { useTranslation, Trans } from "react-i18next";
+import { Helmet } from "react-helmet-async";
 
 export default function Home() {
   const navigate = useNavigate();
@@ -13,6 +14,13 @@ export default function Home() {
   const { t } = useTranslation();
   return (
     <div>
+      <Helmet>
+        <title>{t("home.tags.title")}</title>
+        <meta name="description" content={t("home.tags.description")} />
+        <meta name="keywords" content={t("home.tags.keywords")} />
+        <meta property="og:title" content={t("home.tags.title")} />
+        <meta property="og:description" content={t("home.tags.description")} />
+      </Helmet>
       <div className="hero row">
         <div className="col-lg-6 name">
           <h3 className="highlight homepage">Hi!</h3>

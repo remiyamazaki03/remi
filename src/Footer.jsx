@@ -62,7 +62,7 @@ export default function Footer() {
             </a>
           </div>
           <p className="mt-4 mb-2 mb-md-5 highlight ps-5">
-            email: hello03remi@gmail.com
+            email: hello@chameleon-studios.com
           </p>
         </div>
         <div className="col-md-6 d-flex flex-column">
@@ -112,7 +112,7 @@ export default function Footer() {
             </a>
           </div>
           <div className="d-flex d-block d-md-none mb-3 justify-content-center">
-            email: hello03remi@gmail.com
+            email: hello@chameleon-studios.com
           </div>
           <div className="me-sm-5">
             <FormfacadeEmbed

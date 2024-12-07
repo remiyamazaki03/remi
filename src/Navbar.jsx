@@ -22,7 +22,11 @@ export default function Navbar() {
   return (
     <nav className="navbar navbar-expand-md navbar-light fixed-top navbar-css">
       <Link className="navbar-brand ms-3" to="/" onClick={() => navClick("/")}>
-        Remi
+        <img
+          src="/images/chameleon-studios-logo-small.png"
+          alt="Chameleon Studios logo"
+          width={60}
+        />
       </Link>
       <button
         className="navbar-toggler"
