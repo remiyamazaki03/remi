@@ -19,40 +19,31 @@ export default function Voicecoach() {
         {t("voicecoach.top")}
       </h2>
       <div className="p-0 m-0">
-        <div className="row py-1 px-md-5 content d-flex align-items-center">
-          <div className="col-md-4 ">
+        <div className="row py-1 px-md-5 content2 d-flex align-items-center flex-wrap">
+          <div className="col-md-4">
             <img
-              src="/images/heart.jpg"
-              alt="heartbeat"
-              className="img-fluid p-4 d-none d-md-block"
+              src="/images/freebird.png"
+              alt="freedom"
+              className="img-fluid p-4 d-block mx-auto img-voicecoach"
             />
           </div>
           <div className="col-md-8">
             <div>
-              <img
-                src="/images/heart.jpg"
-                alt="heartbeat"
-                className="img-fluid d-block mt-4 d-md-none w-25"
-              />
-
-              <h2 className="text-center pt-md-5">{t("voicecoach.case1")}</h2>
-              <p className="text-md-center px-5 pb-4 fs-lg-5">
-                <br />
-                <Trans i18nKey="voicecoach.testimonial1"></Trans>
-                <br /> <br />
-                <Trans i18nKey="voicecoach.testimonial2"></Trans>
-              </p>
+              <div>
+                <h2 className="text-center pt-md-5">{t("voicecoach.case1")}</h2>
+                <p className="text-md-center px-5 pb-4 fs-lg-5">
+                  <br />
+                  <Trans i18nKey="voicecoach.testimonial1"></Trans>
+                  <br /> <br />
+                  <Trans i18nKey="voicecoach.testimonial2"></Trans>
+                </p>
+              </div>
             </div>
           </div>
         </div>
-        <div className="row py-1 px-md-5 content2 d-flex align-items-center">
-          <div className="col-md-8">
+        <div className="row py-1 px-md-5 content d-flex align-items-center flex-wrap">
+          <div className="col-md-8 order-2 order-lg-1">
             <div>
-              <img
-                src="/images/colors.jpg"
-                alt="expand your palette"
-                className="img-fluid d-block mt-4 d-md-none w-25 pb-3"
-              />
               <h2 className="text-center pt-md-5 px-3">
                 {t("voicecoach.case2")}
               </h2>
@@ -67,29 +58,24 @@ export default function Voicecoach() {
               <br />
             </div>
           </div>
-          <div className="col-md-4">
+          <div className="col-md-4 order-1 order-lg-2">
             <img
-              src="/images/colors.jpg"
-              alt="expand your palette"
-              className="img-fluid p-5 d-none d-md-block"
+              src="/images/branchout.png"
+              alt="rainbow chameleon"
+              className="img-fluid p-4 d-block mx-auto img-voicecoach"
             />
           </div>
         </div>
-        <div className="row py-1 px-md-5 content d-flex align-items-center">
-          <div className="col-md-4 ">
+        <div className="row py-1 px-md-5 content2 d-flex align-items-center flex-wrap">
+          <div className="col-md-4">
             <img
-              src="/images/stage.jpg"
+              src="/images/unicorn.png"
               alt="show off your singing"
-              className="img-fluid blurry d-none d-md-block"
+              className="img-fluid p-4 d-block mx-auto img-voicecoach"
             />
           </div>
           <div className="col-md-8">
             <div>
-              <img
-                src="/images/stage.jpg"
-                alt="show off your singing"
-                className="img-fluid blurry d-block mt-4 d-md-none"
-              />
               <h2 className="text-center pt-md-5">{t("voicecoach.case3")}</h2>
               <p className="text-md-center px-5 pb-5">
                 <br />

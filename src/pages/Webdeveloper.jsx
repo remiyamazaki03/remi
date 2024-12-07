@@ -18,7 +18,7 @@ export default function Webdeveloper() {
       <h2 className="title m-0 d-flex align-items-center">
         {t("webdeveloper.top")}
       </h2>
-      <div className="content">
+      <div className="content2">
         <p className="py-5 px-5 m-0 text-center fs-5">
           <Trans i18nKey="webdeveloper.content"></Trans>
         </p>

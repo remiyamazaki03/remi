@@ -20,13 +20,16 @@ p,
 ul.prices {
   font-size: 20px;
 }
-.navul {
-  line-height: 200%;
+footer {
+  padding-left: 60px;
+  background-color: var(--main-background-color);
 }
 li {
   list-style: none;
 }
-
+.navul {
+  line-height: 200%;
+}
 .brand {
   color: var(--brand-color);
 }
@@ -43,10 +46,6 @@ li {
 }
 .bio {
   font-size: 1.2vw;
-}
-footer {
-  padding-left: 60px;
-  background-color: var(--main-background-color);
 }
 .youtube-logo {
   color: #ff0200;
@@ -86,22 +85,27 @@ footer {
   background-color: var(--secondary-color);
   color: var(--main-background-color);
 }
-.blurry {
-  background-image: url(/images/stage.jpg);
-  box-shadow: 0 0 0.5em 0.5em inset #e0e0e0;
-  padding: 1em;
-  border-radius: 4px;
+.about2 {
+  height: fit-content;
+  background-color: var(--secondary-background-color);
+  color: var(--main-background-color);
 }
 .title {
   height: 16.5rem;
   padding-top: 75px;
   padding-left: 15%;
-  background-color: var(--overlay-color);
-  color: var(--main-background-color);
+  color: var(--secondary-background-color);
   font-weight: bold;
-  background-image: url(/images/chameleon-studios-logo.png);
+  background-image: url(/images/chameleon-studios-logo.png),
+    linear-gradient(
+      to right,
+      rgba(99, 71, 255, 0.9) 0%,
+      rgba(99, 71, 255, 0.9) 14%,
+      rgba(0, 0, 0, 1) 14.5%,
+      rgba(0, 0, 0, 1) 100%
+    );
   background-repeat: no-repeat;
-  background-size: 15%;
+  background-size: 15%, 100%;
   background-position-y: 100%;
 }
 .content {
@@ -113,7 +117,7 @@ footer {
   min-height: 100vh;
 }
 .pricing {
-  background-color: var(--secondary-background-color);
+  background-color: var(--secondary-color);
   background-image: url(/images/microphone.jpg);
   background-repeat: no-repeat;
   background-size: contain;
@@ -305,6 +309,12 @@ footer {
   h3 {
     text-align: center;
   }
+  p {
+    font-size: 16px;
+  }
+  label {
+    font-size: 26px;
+  }
   .overlayTitle {
     font-size: 36px;
   }
@@ -312,11 +322,8 @@ footer {
     padding-top: 0;
     padding-left: 0;
   }
-  p {
-    font-size: 16px;
-  }
-  label {
-    font-size: 26px;
+  .about-logo {
+    max-width: 450px !important;
   }
   .hero {
     background-image: none;
@@ -349,21 +356,23 @@ footer {
     padding-top: 100px;
     padding-bottom: 25px;
   }
-  .blurry {
-    background-image: none;
-    width: 40%;
-    border-radius: 25px;
-  }
   .bio {
     font-size: 4.5vw;
   }
   .demo {
     margin: 0rem 3rem 2rem 3rem;
   }
+  .img-voicecoach {
+    max-width: 50% !important;
+  }
 }
 @media (max-width: 576px) {
   .title {
     height: fit-content;
     padding-bottom: 25px;
+    background-position-y: 80%;
+  }
+  .about-logo {
+    max-width: 350px !important;
   }
 }

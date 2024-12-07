@@ -4,11 +4,22 @@
     "description": "About Remi",
     "keywords": "gospel singer, Chameleon Studios, Remi, classical, Remi Yamazaki, gospel choir director, international, Tokyo"
   },
-  "top": "About me",
+  "top": "About me & Chameleon Studios",
   "greeting": "Hi, I'm Remi!",
   "content": {
     "line1": "Remi is a classically trained versatile vocalist who has performed in classical choirs in Vienna, a Grammy Award-winning gospel choir, Off Broadway musicals and several jazz clubs in New York City.",
     "line2": "After graduating from Yokohama International School, she received her Bachelor's in Comparative Literature from Princeton University, where she also received training in French acting.",
+    "line3a": "Back in Tokyo, she has continued classical choral singing and has also performed in live concerts featuring pop/Jpop music. She currently directs a contemporary/gospel choir at ",
+    "line3b": ".",
+    "line4": "Remi was born into a teachers' family and has been teaching for about 15 years. Her teaching experience includes directing a children's program (ages 4+) and training teachers.",
+    "line5a": "Vocal command and agility requires complex inner muscle coordination - and the best way to engage these muscles is by being silly! Her vocal students at ",
+    "lessons": "Chameleon Studios",
+    "line5b": " have a wonderful time and her lessons are often the highlight of their week. (Her vocal lessons are most suitable for children ages 8 and up.)"
+  },
+  "greeting2": "Why \"Chameleon\" ? 🦎",
+  "content2": {
+    "line1": "I chose Chameleon because I believe everyone has a rainbow inside, and I love bringing all the colors out in people - even the ones we don’t realize we have 🌈",
+    "line2": "My teaching approach is _____",
     "line3a": "Back in Tokyo, she has continued classical choral singing and has also performed in live concerts featuring pop/Jpop music. She currently directs a contemporary/gospel choir at ",
     "line3b": ".",
     "line4": "Remi was born into a teachers' family and has been teaching for about 15 years. Her teaching experience includes directing a children's program (ages 4+) and training teachers.",

@@ -14,7 +14,13 @@ export default function About() {
         <meta property="og:description" content={t("about.tags.description")} />
       </Helmet>
       <h2 className="title m-0 d-flex align-items-center">{t("about.top")}</h2>
+
       <div className="about m-0 row text-center align-items-center">
+        <img
+          className="img-fluid col-md-4 p-0 h-100 d-none d-md-block"
+          src="/images/aboutremi.jpg"
+          alt="Remi"
+        />
         <div className="col-md-8 p-5">
           <h2 className="mt-2 fs-3">{t("about.greeting")}</h2>
           <p className="mt-4 bio ">
@@ -55,11 +61,6 @@ export default function About() {
             <small>{t("about.cta")}</small>
           </p>
         </div>
-        <img
-          className="img-fluid col-md-4 p-0 h-100 d-none d-md-block"
-          src="/images/aboutremi.jpg"
-          alt="Remi"
-        />
       </div>
     </div>
   );
