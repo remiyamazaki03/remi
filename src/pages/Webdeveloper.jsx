@@ -14,6 +14,7 @@ export default function Webdeveloper() {
           property="og:description"
           content={t("webdeveloper.tags.description")}
         />
+        <link rel="canonical" href="https://chameleon-studios.com/" />
       </Helmet>
       <h2 className="title m-0 d-flex align-items-center">
         {t("webdeveloper.top")}

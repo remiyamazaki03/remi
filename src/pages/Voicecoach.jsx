@@ -14,6 +14,7 @@ export default function Voicecoach() {
           property="og:description"
           content={t("voicecoach.tags.description")}
         />
+        <link rel="canonical" href="https://chameleon-studios.com/" />
       </Helmet>
       <h2 className="title d-flex align-items-center m-0">
         {t("voicecoach.top")}
