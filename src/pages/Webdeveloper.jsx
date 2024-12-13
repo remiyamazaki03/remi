@@ -8,7 +8,6 @@ export default function Webdeveloper() {
       <Helmet>
         <title>{t("webdeveloper.tags.title")}</title>
         <meta name="description" content={t("webdeveloper.tags.description")} />
-        <meta name="keywords" content={t("webdeveloper.tags.keywords")} />
         <meta property="og:title" content={t("webdeveloper.tags.title")} />
         <meta
           property="og:description"

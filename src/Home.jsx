@@ -17,7 +17,6 @@ export default function Home() {
       <Helmet>
         <title>{t("home.tags.title")}</title>
         <meta name="description" content={t("home.tags.description")} />
-        <meta name="keywords" content={t("home.tags.keywords")} />
         <meta property="og:title" content={t("home.tags.title")} />
         <meta property="og:description" content={t("home.tags.description")} />
       </Helmet>

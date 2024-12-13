@@ -8,7 +8,6 @@ export default function Voicecoach() {
       <Helmet>
         <title>{t("voicecoach.tags.title")}</title>
         <meta name="description" content={t("voicecoach.tags.description")} />
-        <meta name="keywords" content={t("voicecoach.tags.keywords")} />
         <meta property="og:title" content={t("voicecoach.tags.title")} />
         <meta
           property="og:description"
