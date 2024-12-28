@@ -21,16 +21,13 @@ export default function Home() {
         <meta property="og:description" content={t("home.tags.description")} />
       </Helmet>
       <div className="hero row">
-        <div className="col-lg-6 name">
-          <h3 className="highlight homepage">Hi!</h3>
-          <h1 className="highlight homepage">
-            {t("home.greeting.line1")}
-            <div className="brand">
-              <Trans i18nKey="home.greeting.line2"></Trans>
-            </div>
-          </h1>
+        <div className="col-12 d-flex justify-content-center">
+          <img
+            className="d-block img-fluid logo-home"
+            src="/images/chameleon-studios-logo-full.png"
+            alt="logo"
+          />
         </div>
-        <div className="col-lg-6 d-none d-md-block"></div>
       </div>
       <div className="row" id="work">
         <div className="col-md-4 p-0 work-img">
@@ -42,7 +39,7 @@ export default function Home() {
           <div className="overlay">
             <h2 className="overlayTitle">{t("home.title1")}</h2>
             <h3 className="p-5 text-center fs-4 subheader">
-              {t("home.details1")}
+              <Trans i18nKey="home.details1"></Trans>
             </h3>
             <Link
               to="/about"
@@ -62,7 +59,7 @@ export default function Home() {
           <div className="overlay" id="vocal-overlay">
             <h2 className="overlayTitle">{t("home.title2")}</h2>
             <h3 className="p-5 text-center fs-4 subheader">
-              {t("home.details2")}
+              <Trans i18nKey="home.details2"></Trans>
             </h3>
             <Link
               to="/voicecoach"

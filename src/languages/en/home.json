@@ -3,17 +3,13 @@
     "title": "Chameleon Studios",
     "description": "Chameleon Studios is a voice coaching studio in Tokyo run by Remi. Lesson locations include Omotesando near Shibuya/Harajuku, Ikebukuro, Akabane and online."
   },
-  "greeting": {
-    "line1": "I'm",
-    "line2": "Remi"
-  },
-  "title1": "Singer / Actor",
-  "details1": "Get to know me:",
-  "button1": "About me",
-  "title2": "Vocal coach",
-  "details2": "Details and student testimonials here:",
-  "button2": "See more",
-  "title3": "Web developer",
-  "details3": "Web design and development services for artists and small business owners:",
+  "title1": "Chameleon Studios",
+  "details1": "Voice lessons in Tokyo & online <br/><br/>Find out about my teaching philosophy & lesson flow:",
+  "button1": "About Chameleon",
+  "title2": "Vocal lessons",
+  "details2": "What are vocal lessons like? <br/><br/>Location & pricing information, and hear from real students:",
+  "button2": "Learn more",
+  "title3": "For artists",
+  "details3": "Web design & maintenance services for artists",
   "button3": "See more"
 }

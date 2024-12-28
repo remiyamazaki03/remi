@@ -47,6 +47,9 @@ li {
 .bio {
   font-size: 1.2vw;
 }
+.logo-home {
+  max-width: 600px;
+}
 .youtube-logo {
   color: #ff0200;
 }
@@ -68,17 +71,9 @@ li {
   border-radius: 5px;
 }
 .hero {
-  height: 100vh;
+  height: fit-content;
+  background-color: var(--secondary-background-color);
   padding-top: 100px;
-  padding-left: 60px;
-}
-.hero {
-  background-color: var(--main-background-color);
-  color: var(--secondary-color);
-  background-image: url(/images/profile.jpg);
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: 115%;
 }
 .about {
   height: fit-content;
@@ -174,19 +169,22 @@ li {
   top: 0;
   left: 0;
   background-color: var(--overlay-color);
+  color: var(--secondary-color);
+  text-shadow: var(--box-shadow);
 }
 
 .launch-button {
-  background-color: var(--main-background-color);
-  color: var(--brand-color);
+  background-color: var(--brand-color);
+  border: solid 1.5px var(--highlight-color);
+  color: var(--secondary-color);
   opacity: 0.85;
   transition: ease-in-out 100ms;
   padding: 7px;
   padding-left: 15px;
   padding-right: 15px;
   border-radius: 16px;
-  border: none;
   text-decoration: none;
+  box-shadow: var(--box-shadow);
 }
 .launch-button:hover {
   background-color: var(--secondary-color);
@@ -309,6 +307,11 @@ li {
     background-position-y: 90%;
   }
 }
+@media (min-width: 767px) {
+  .logo-home {
+    max-width: 600px !important;
+  }
+}
 @media (max-width: 767px) {
   h1,
   h2,
@@ -330,10 +333,6 @@ li {
   }
   .about-logo {
     max-width: 450px !important;
-  }
-  .hero {
-    background-image: none;
-    padding-right: 15%;
   }
   .content,
   .content2,
