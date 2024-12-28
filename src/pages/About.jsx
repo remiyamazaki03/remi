@@ -14,7 +14,51 @@ export default function About() {
         <link rel="canonical" href="https://chameleon-studios.com/" />
       </Helmet>
       <h2 className="title m-0 d-flex align-items-center">{t("about.top")}</h2>
-
+      <div className="about2 row text-center align-items-center">
+        <div className="col-md-8 p-5">
+          <h2 className="mt-2 fs-3">{t("about.greeting2")}</h2>
+          <p className="mt-4 bio ">
+            <Trans i18nKey="about.content2.line1"></Trans>
+            <br />
+            <br />
+            <Trans i18nKey="about.content2.line2"></Trans>
+            <br />
+            <br />
+            <Trans i18nKey="about.content2.line3"></Trans>
+            <br />
+            <br />
+            {t("about.content2.line4a")}
+            <Link
+              to="/voicecoach"
+              style={{
+                color: "#6347ff",
+              }}
+            >
+              {t("about.content2.lessons")}
+            </Link>
+            {t("about.content2.line4b")} <br />
+            <br />
+            <Trans i18nKey="about.content2.line5"></Trans>
+            <br />
+            <br />
+            {t("about.content2.ctaa")}
+            <Link
+              to="/voicecoach"
+              style={{
+                color: "#6347ff",
+              }}
+            >
+              {t("about.content2.ctalink")}
+            </Link>
+            {t("about.content2.ctab")}
+          </p>
+        </div>
+        <img
+          className="about-logo img-fluid col-md-4 h-md-100 d-block mx-auto pe-5"
+          src="/images/chameleon-studios-logo-about2.png"
+          alt="logo"
+        />
+      </div>
       <div className="about m-0 row text-center align-items-center">
         <img
           className="img-fluid col-md-4 p-0 h-100 d-none d-md-block"
@@ -24,38 +68,104 @@ export default function About() {
         <div className="col-md-8 p-5">
           <h2 className="mt-2 fs-3">{t("about.greeting")}</h2>
           <p className="mt-4 bio ">
-            {t("about.content.line1")}
+            {t("about.content.line1a")}
+            <a
+              href="https://www.brooklyntabernacle.org/music/"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{
+                color: "#6347ff",
+              }}
+            >
+              Brooklyn Tabernacle Choir
+            </a>
+            {t("about.content.line1b")}
+            <a
+              href="https://www.williammcdowellmusic.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{
+                color: "#6347ff",
+              }}
+            >
+              William McDowell
+            </a>
+            {t("about.content.line1and")}
+            <a
+              href="https://nataliegrant.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{
+                color: "#6347ff",
+              }}
+            >
+              Natalie Grant
+            </a>
+            {t("about.content.line1c")}{" "}
+            <a
+              href="https://54below.org/about/"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{
+                color: "#6347ff",
+              }}
+            >
+              54 Below
+            </a>
+            {t("about.content.line1d")}
             <br />
             <br />
             {t("about.content.line2")}
             <br />
             <br />
             {t("about.content.line3a")}
-
-            <Link
-              to="https://www.tokyounion.org"
+            <a
+              href="https://music.princeton.edu/people/ronald-cappon/"
+              target="_blank"
+              rel="noopener noreferrer"
               style={{
                 color: "#6347ff",
               }}
             >
-              Tokyo Union Church
-            </Link>
+              Ronald Cappon
+            </a>
             {t("about.content.line3b")}
-            <br />
-            <br />
-            {t("about.content.line4")}
-            <br />
-            <br />
-            <Trans i18nKey="about.content.line5a"></Trans>
-            <Link
-              to="/voicecoach"
+            <a
+              href="https://chapel.princeton.edu/chapel-choir"
+              target="_blank"
+              rel="noopener noreferrer"
               style={{
                 color: "#6347ff",
               }}
             >
-              {t("about.content.lessons")}
-            </Link>
-            <Trans i18nKey="about.content.line5b"></Trans>
+              {t("about.content.line3link")}
+            </a>
+            {t("about.content.line3c")}
+            <br />
+            <br />
+            {t("about.content.line4a")}
+            <a
+              href="https://www.tokyounion.org/"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{
+                color: "#6347ff",
+              }}
+            >
+              {t("about.content.line4tuc")}
+            </a>
+            {t("about.content.line4b")}
+            <a
+              href="http://ssp-create.com/pupa.html"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{
+                color: "#6347ff",
+              }}
+            >
+              SSP
+            </a>
+            {t("about.content.line4c")}
             <br />
             <br />
             <small>{t("about.cta")}</small>

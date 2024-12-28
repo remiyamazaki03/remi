@@ -1,30 +1,38 @@
 {
   "tags": {
-    "title": "About Remi",
+    "title": "About Chameleon Studios",
     "description": "Remi is a voice teacher at Chameleon Studios and a gospel choir director in Tokyo. Find out more about Remi and Chameleon Studios here."
   },
-  "top": "About me & Chameleon Studios",
-  "greeting": "Hi, I'm Remi!",
+  "top": "About Chameleon Studios",
+  "greeting": "About the instructor",
   "content": {
-    "line1": "Remi is a classically trained versatile vocalist who has performed in classical choirs in Vienna, a Grammy Award-winning gospel choir, Off Broadway musicals and several jazz clubs in New York City.",
-    "line2": "After graduating from Yokohama International School, she received her Bachelor's in Comparative Literature from Princeton University, where she also received training in French acting.",
-    "line3a": "Back in Tokyo, she has continued classical choral singing and has also performed in live concerts featuring pop/Jpop music. She currently directs a contemporary/gospel choir at ",
-    "line3b": ".",
-    "line4": "Remi was born into a teachers' family and has been teaching for about 15 years. Her teaching experience includes directing a children's program (ages 4+) and training teachers.",
-    "line5a": "Vocal command and agility requires complex inner muscle coordination - and the best way to engage these muscles is by being silly! Her vocal students at ",
-    "lessons": "Chameleon Studios",
-    "line5b": " have a wonderful time and her lessons are often the highlight of their week. (Her vocal lessons are most suitable for children ages 8 and up.)"
+    "line1a": "Former member of the multiple Grammy Award-winning gospel choir, the ",
+    "line1b": ", Remi has shared the stage with renowned gospel and contemporary Christian artists like ",
+    "line1and": " and ",
+    "line1c": ". She has also performed in New York City, including Off-Broadway venue ",
+    "line1d": " and various jazz clubs.",
+    "line2": "Remi began singing gospel music as a member and soloist of her school choir and was a member of her church worship band by her teens. By her senior year of high school, she was directing an a cappella choir of eight singers, performing at various functions including an international Kanto (regional) choir festival in Tokyo.",
+    "line3a": "She earned her Bachelor's Degree in Comparative Literature (with a focus on theatrical literature) from Princeton University, where she also received classical vocal training from ",
+    "line3b": ". As a member of the ",
+    "line3link": "Princeton University Chapel Choir",
+    "line3c": ", she performed at St. Stephen's Cathedral in Vienna and as a soloist at the University Chapel. She also continued directing - this time for an a cappella group specializing in Southern African gospel and Afropop/Afrobeat.",
+    "line4a": "After relocating to New York City, she continued performing and classical training while expanding her musical horizons. Now back in Tokyo, she has performed in live concerts featuring pop and Jpop music, continues her classical choral work, and directs a contemporary/gospel choir at ",
+    "line4tuc": "Tokyo Union Church",
+    "line4b": ". She also holds partial representation as a voice actor/voiceover artist with creative agency ",
+    "line4c": "."
   },
+  "cta": "For a detailed performance/arts resume or for voice samples, please place a request via the form below.",
   "greeting2": "Why \"Chameleon\" ? 🦎",
   "content2": {
-    "line1": "I chose Chameleon because I believe everyone has a rainbow inside, and I love bringing all the colors out in people - even the ones we don’t realize we have 🌈",
-    "line2": "My teaching approach is _____",
-    "line3a": "Back in Tokyo, she has continued classical choral singing and has also performed in live concerts featuring pop/Jpop music. She currently directs a contemporary/gospel choir at ",
-    "line3b": ".",
-    "line4": "Remi was born into a teachers' family and has been teaching for about 15 years. Her teaching experience includes directing a children's program (ages 4+) and training teachers.",
-    "line5a": "Vocal command and agility requires complex inner muscle coordination - and the best way to engage these muscles is by being silly! Her vocal students at ",
+    "line1": "Chameleon Studios was founded in March 2024 by Remi Yamazaki.<br/>The name “Chameleon” reflects Remi’s teaching style and teaching philosophy:",
+    "line2": "<strong> Teaching style: </strong> Vocal command and agility require intricate inner muscle coordination, so using easy-to-remember animals to capture complex anatomical concepts is one of the reasons her lessons are both effective and entertaining, as well as kid-friendly (ages 8+).",
+    "line3": "<strong>Teaching philosophy:</strong> Remi believes that everyone has a rainbow inside of them!  🌈 Bringing out all the different “colors” of students' voices - even the ones we don't realize we have - is one of her favorite things to do.",
+    "line4a": "Remi was born into a teachers' family and has been teaching for about 15 years. Her teaching experience includes directing a children's program (ages 4+) and training children's teachers. Her vocal students at ",
     "lessons": "Chameleon Studios",
-    "line5b": " have a wonderful time and her lessons are often the highlight of their week. (Her vocal lessons are most suitable for children ages 8 and up.)"
-  },
-  "cta": "For a detailed performance/arts resume or for voice samples, please contact me via the form below."
+    "line4b": " have a wonderful time and her lessons are often the highlight of their week.",
+    "line5": "<strong>Lesson flow:</strong><br/><strong>1) targeted warm-ups:</strong> customized to individual student strengths and needs <br/><strong>2) targeted vocal exercises:</strong> this is where the hard work happens. Students work on targeted exercises to help them acquire new abilities and progress towards their personal singing goals and dreams.<br/><strong>3) song work:</strong> students practice applying learned vocal techniques to a song of their choice.",
+    "ctaa": "Read student testimonials ",
+    "ctalink": "here",
+    "ctab": "."
+  }
 }
