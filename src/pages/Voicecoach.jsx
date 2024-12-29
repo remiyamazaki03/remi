@@ -111,7 +111,21 @@ export default function Voicecoach() {
                 <ul className="subList">
                   <li>{t("voicecoach.menu3")}</li>
                   <li>
-                    <Trans i18nKey="voicecoach.menu4"></Trans>
+                    <small>
+                      {t("voicecoach.menu4a")}
+                      <a
+                        href="https://wise.com/gb/currency-converter/jpy-to-usd-rate?amount=4500"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        style={{
+                          color: "#6347ff",
+                        }}
+                      >
+                        {" "}
+                        {t("voicecoach.menu4link")}
+                      </a>
+                      {t("voicecoach.menu4b")}
+                    </small>
                   </li>
                 </ul>{" "}
                 <br />
