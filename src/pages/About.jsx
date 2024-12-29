@@ -61,7 +61,7 @@ export default function About() {
       </div>
       <div className="about m-0 row text-center align-items-center">
         <img
-          className="img-fluid col-md-4 p-0 h-100 d-none d-md-block"
+          className="img-fluid col-md-4 about-photo d-block mx-auto"
           src="/images/aboutremi.jpg"
           alt="Remi"
         />
