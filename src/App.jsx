@@ -1,17 +1,17 @@
+import { lazy, Suspense } from "react";
 import { Route, Routes } from "react-router-dom";
-import { HelmetProvider } from "react-helmet-async";
-import Home from "./Home";
-import About from "./pages/About";
-import Voicecoach from "./pages/Voicecoach";
-import Webdeveloper from "./pages/Webdeveloper";
-import Blank from "./pages/Blank";
-import Disclosure from "./pages/Disclosure";
-import Policies from "./pages/Policies";
+const Home = lazy(() => import("./Home"));
+const About = lazy(() => import("./pages/About"));
+const Voicecoach = lazy(() => import("./pages/Voicecoach"));
+const Webdeveloper = lazy(() => import("./pages/Webdeveloper"));
+const Blank = lazy(() => import("./pages/Blank"));
+const Disclosure = lazy(() => import("./pages/Disclosure"));
+const Policies = lazy(() => import("./pages/Policies"));
 
 export default function App() {
   return (
-    <HelmetProvider>
-      <div>
+    <div>
+      <Suspense>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
@@ -21,7 +21,7 @@ export default function App() {
           <Route path="/disclosure" element={<Disclosure />} />
           <Route path="/policies" element={<Policies />} />
         </Routes>
-      </div>
-    </HelmetProvider>
+      </Suspense>
+    </div>
   );
 }
