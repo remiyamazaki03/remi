@@ -1,20 +1,17 @@
 import { useTranslation, Trans } from "react-i18next";
-import { Helmet } from "react-helmet-async";
 
 export default function Voicecoach() {
   const { t } = useTranslation();
   return (
     <div>
-      <Helmet>
-        <title>{t("voicecoach.tags.title")}</title>
-        <meta name="description" content={t("voicecoach.tags.description")} />
-        <meta property="og:title" content={t("voicecoach.tags.title")} />
-        <meta
-          property="og:description"
-          content={t("voicecoach.tags.description")}
-        />
-        <link rel="canonical" href="https://chameleon-studios.com/" />
-      </Helmet>
+      <title>{t("voicecoach.tags.title")}</title>
+      <meta name="description" content={t("voicecoach.tags.description")} />
+      <meta property="og:title" content={t("voicecoach.tags.title")} />
+      <meta
+        property="og:description"
+        content={t("voicecoach.tags.description")}
+      />
+      <link rel="canonical" href="https://chameleon-studios.com/voicecoach" />
       <h2 className="title d-flex align-items-center m-0">
         {t("voicecoach.top")}
       </h2>

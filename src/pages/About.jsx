@@ -1,18 +1,15 @@
 import { Link } from "react-router-dom";
 import { useTranslation, Trans } from "react-i18next";
-import { Helmet } from "react-helmet-async";
 
 export default function About() {
   const { t } = useTranslation();
   return (
     <div>
-      <Helmet>
-        <title>{t("about.tags.title")}</title>
-        <meta name="description" content={t("about.tags.description")} />
-        <meta property="og:title" content={t("about.tags.title")} />
-        <meta property="og:description" content={t("about.tags.description")} />
-        <link rel="canonical" href="https://chameleon-studios.com/" />
-      </Helmet>
+      <title>{t("about.tags.title")}</title>
+      <meta name="description" content={t("about.tags.description")} />
+      <meta property="og:title" content={t("about.tags.title")} />
+      <meta property="og:description" content={t("about.tags.description")} />
+      <link rel="canonical" href="https://chameleon-studios.com/about" />
       <h2 className="title m-0 d-flex align-items-center">{t("about.top")}</h2>
       <div className="about2 row text-center align-items-center">
         <div className="col-md-8 p-5">
