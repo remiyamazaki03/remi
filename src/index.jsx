@@ -8,7 +8,7 @@ import { BrowserRouter } from "react-router-dom";
 import "./i18n";
 import Navbar from "./Navbar";
 import App from "./App";
-const Footer = lazy(() => import("./Footer"));
+import Footer from "./Footer";
 
 const root = createRoot(document.getElementById("root"));
 root.render(
