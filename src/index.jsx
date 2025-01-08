@@ -1,4 +1,4 @@
-import React, { lazy, Suspense } from "react";
+import React from "react";
 import { createRoot } from "react-dom/client";
 import "./index.css";
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
@@ -17,17 +17,7 @@ root.render(
       <BrowserRouter>
         <Navbar />
         <App />
-        <Suspense
-          fallback={
-            <img
-              src="/images/chameleon-studios-logo-small.png"
-              alt="Chameleon Studios logo"
-              style={{ display: "block", margin: "0 auto", width: "60px" }}
-            />
-          }
-        >
-          <Footer />
-        </Suspense>
+        <Footer />
       </BrowserRouter>
     </HelmetProvider>
   </React.StrictMode>
