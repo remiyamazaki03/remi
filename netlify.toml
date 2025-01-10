@@ -1,0 +1,10 @@
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+  [[redirects]]
+  from = "https://remi03.netlify.app/*"
+  to = "https://chameleon-studios.com/:splat"
+  status = 301
+  force = true
