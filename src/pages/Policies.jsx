@@ -3,6 +3,7 @@ export default function Policies() {
     "https://docs.google.com/document/d/1yG2lIGjPvCpPJf0McNzMnhuWnsm4z5V4U9XJ994GOt8/edit?usp=sharing";
   return (
     <div>
+      <title>For students・生徒さん用</title>
       <h2 className="title m-0 d-flex align-items-center">
         Chameleon Studios voice lesson policies
       </h2>

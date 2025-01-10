@@ -3,6 +3,7 @@ export default function Disclosure() {
     "https://docs.google.com/document/d/1yG2lIGjPvCpPJf0McNzMnhuWnsm4z5V4U9XJ994GOt8/edit?usp=sharing";
   return (
     <div>
+      <title>Commercial Disclosure・特定商取引法に基づく表示</title>
       <h2 className="title m-0 d-flex align-items-center">
         Commercial Disclosure・特定商取引法に基づく表示
       </h2>
