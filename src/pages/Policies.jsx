@@ -12,17 +12,18 @@ export default function Policies() {
         <br />
         <strong>📋Rescheduling / Cancellation policy</strong>
         <br />
-        <br /> If you need to cancel or reschedule an online lesson, please do
-        so at least 24 hours in advance of the scheduled lesson. No shows and
-        lessons cancelled after this period will be fully charged as a scheduled
-        attended lesson.
+        <br /> If you need to cancel or reschedule an<strong> online </strong>
+        lesson, please do so at least 24 hours in advance of the scheduled
+        lesson. No shows and lessons cancelled after this period will be fully
+        charged as a scheduled attended lesson.
         <br />
-        <br /> If you need to cancel or reschedule an in person lesson, please
-        do so at least 8 days in advance of the scheduled lesson. If a lesson is
-        cancelled or rescheduled less than 8 days in advance but more than 0
-        days in advance, cancellation/administration fees will apply as below.
-        No shows and lessons cancelled after this period will be fully charged
-        as a scheduled attended lesson: <br />
+        <br /> If you need to cancel or reschedule an
+        <strong> in person </strong>lesson, please do so at least 8 days in
+        advance of the scheduled lesson. If a lesson is cancelled or rescheduled
+        less than 8 days in advance but more than 0 days in advance,
+        cancellation/administration fees will apply as below. No shows and
+        lessons cancelled after this period will be fully charged as a scheduled
+        attended lesson: <br />
         <br />9 or more days in advance：Y0 <br />
         6~8 days in advance ： Y250 <br />
         4~5 days in advance： Y500 <br />
@@ -42,7 +43,7 @@ export default function Policies() {
         <br />
         <strong> 📋Accepted payment methods</strong> <br />
         <br />
-        Paypal, bank transfer, credit card
+        Credit card, bank transfer, Paypal
         <br />
         (Tokyo in person lessons only: Cash also accepted) <br />
         <br />
@@ -86,7 +87,7 @@ export default function Policies() {
         <br />
         <strong>📋ご利用いただけるお支払い方法</strong>
         <br />
-        <br /> PayPal、銀行振込、クレジットカード
+        <br /> クレジットカード、銀行振込、PayPal
         <br />
         （東京対面式レッスンのみ：現金も可） <br />
         <br />
