@@ -1,4 +1,7 @@
+import { useTranslation, Trans } from "react-i18next";
+
 export default function Blank() {
+  const { t } = useTranslation();
   return (
     <span>
       <title>{t("footer.tags.title")}</title>
