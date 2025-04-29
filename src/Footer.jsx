@@ -112,7 +112,7 @@ export default function Footer() {
             </a>
           </div>
           <div className="d-flex d-block d-md-none mb-3 justify-content-center">
-            email: hello03remi@gmail.com
+            email: hello@chameleon-studios.com
           </div>
           <div className="me-sm-5">
             <FormfacadeEmbed

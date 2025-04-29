@@ -153,7 +153,7 @@ export default function About() {
             </a>
             {t("about.content.line4b")}
             <a
-              href="http://ssp-create.com/pupa.html"
+              href="http://ssp-create.com/b_woman/remi.html"
               target="_blank"
               rel="noopener noreferrer"
               style={{
