@@ -384,10 +384,14 @@ li {
     background-color: var(--secondary-color);
     color: var(--main-background-color);
     background-image: none;
-    padding-left: 0;
+    padding-left: 1rem;
+    padding-right: 1rem;
     justify-content: center;
   }
   .about-logo {
     max-width: 350px !important;
+  }
+  .img-voicecoach {
+    padding-right: 0 !important;
   }
 }
