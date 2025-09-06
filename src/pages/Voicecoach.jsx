@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { useTranslation, Trans } from "react-i18next";
 
 export default function Voicecoach() {
@@ -99,7 +100,9 @@ export default function Voicecoach() {
                 <li className="mainList">
                   {t("voicecoach.price1")}
                   <ul className="subList">
-                    <li>{t("voicecoach.menu1")}</li>
+                    <li>
+                      <Trans i18nKey="voicecoach.menu1"></Trans>
+                    </li>
                     <li>{t("voicecoach.menu2")}</li>
                   </ul>
                   <br />
@@ -143,9 +146,18 @@ export default function Voicecoach() {
                   </ul>
                 </li>
               </ul>
-              <p className="text-start text-xl-center ms-md-5 ps-5 pe-2 me-5 px-md-5 pb-3 fw-bold">
+              <p className="text-start text-lg-center ms-md-5 ps-5 pe-2 me-5 px-md-5 pb-3 fw-bold w-75 w-sm-0">
                 {t("voicecoach.cta.line1")}
-                <br className="d-lg-none" />
+
+                <Link
+                  to="/about"
+                  style={{
+                    color: "#6347ff",
+                  }}
+                >
+                  {t("voicecoach.cta.line1link")}
+                </Link>
+
                 <Trans i18nKey="voicecoach.cta.line2"></Trans>
               </p>
             </div>

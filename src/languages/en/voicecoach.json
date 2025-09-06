@@ -14,21 +14,22 @@
   "testimonial5": "“Before these lessons, all I thought about was matching pitch, but <strong> I learned how to breathe, how to do vibrato, dynamics, and other techniques to help me become better at singing - all customized to my level. </strong> And when I didn't understand something, Remi explained it with a lot of care. I can sing so many more songs now than before!” <br/>- C. N. (online, Japan)",
   "testimonial6": "“I'm an actor and I love musicals, but I couldn't sing. Remi not only told me that yes, I could sing but also helped me prepare my singing audition. <strong> She believed in me when I didn't believe in myself, and after that, I'm not afraid of auditioning for musicals anymore! </strong>” <br/>- V. H. (in person, USA)",
   "pricing": "Pricing",
-  "price1": "Free trial (online only, first time only)",
-  "menu1": "20 min, Free",
+  "price1": "Trial",
+  "menu1": "Online: 20~30min, Free <br/> In person: 45~60min, Y5000",
   "menu2": "If you would like to set up a trial, please sign up via the form below!",
   "price2": "Online",
-  "menu3": "JPY4500 per 45 min / USD45 per 45 min (JPY6000 per 60 min / USD60 per 60 min)",
+  "menu3": "JPY4500 per 45 min / JPY6000 per 60 min (USD45 per 45 min / USD60 per 60 min)",
   "menu4a": "*Prices are converted to USD using purchasing power parity, ensuring equitable pricing regardless of currency fluctuations. For ",
   "menu4link": "other currencies",
   "menu4b": ", please inquire.",
-  "price3": "In Person (Tokyo only: Ikebukuro / Akabane / Omotesando)",
-  "menu5": "JPY6000 per 45 min (JPY8000 per 60 min)",
-  "menu6": "If you would like to inquire about other Tokyo locations, please let me know.",
+  "price3": "In Person (Tokyo only: Ikebukuro / Akabane / Shibuya-Omotesando)",
+  "menu5": "JPY6000 per 45 min / JPY8000 per 60 min",
+  "menu6": "Please inquire for location details.",
   "price4": "Group voice coaching and workshops",
   "menu7": "Please inquire",
   "cta": {
-    "line1": "If you are interested or have any questions, ",
-    "line2": "please contact me via the form below. <br/> I look forward to hearing from you!"
+    "line1": "If you are interested or have any questions, read more about ",
+    "line1link": "lesson flow",
+    "line2": " or contact me via the form below. I look forward to hearing from you!"
   }
 }

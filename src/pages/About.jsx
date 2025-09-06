@@ -38,6 +38,9 @@ export default function About() {
             <Trans i18nKey="about.content2.line5"></Trans>
             <br />
             <br />
+            <Trans i18nKey="about.content2.line6"></Trans>
+            <br />
+            <br />
             {t("about.content2.ctaa")}
             <Link
               to="/voicecoach"
