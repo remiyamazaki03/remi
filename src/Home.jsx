@@ -33,6 +33,7 @@ export default function Home() {
             className="img-fluid"
             src="/images/Remi-singer.jpg"
             alt="Remi singer"
+            loading="lazy"
           />
           <div className="overlay">
             <h2 className="overlayTitle">{t("home.title1")}</h2>
@@ -53,6 +54,7 @@ export default function Home() {
             className="img-fluid"
             src="/images/microphone.jpg"
             alt="microphone"
+            loading="lazy"
           />
           <div className="overlay" id="vocal-overlay">
             <h2 className="overlayTitle">{t("home.title2")}</h2>
@@ -74,6 +76,7 @@ export default function Home() {
             className="img-fluid"
             src="/images/Remi-developer.jpg"
             alt="Remi profile"
+            loading="lazy"
           />
           <div className="overlay">
             <h2 className="overlayTitle">{t("home.title3")}</h2>
