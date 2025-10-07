@@ -238,12 +238,15 @@ li {
   font-weight: 500;
   letter-spacing: 0.1rem;
 }
-.nav-link {
+.nav-link,
+.trans-link {
   color: var(--secondary-background-color) !important;
+}
+.nav-link:hover {
+  font-weight: 800;
 }
 .nav-item {
   padding: 8px;
-  font-weight: 500;
 }
 .nav-item:hover {
   background-color: var(--brand-color);
@@ -324,6 +327,11 @@ li {
   }
   label {
     font-size: 26px;
+  }
+  .language {
+    margin-left: 0.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
   }
   .overlayTitle {
     font-size: 36px;

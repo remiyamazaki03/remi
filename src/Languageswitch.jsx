@@ -12,7 +12,7 @@ export default function Languageswitch({ onClick }) {
     onClick();
   };
   return (
-    <div className="nav-link language" onClick={handleClick}>
+    <div className="trans-link language" onClick={handleClick}>
       {i18n.language.startsWith("en") ? "日本語" : "English"}
     </div>
   );
