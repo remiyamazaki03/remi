@@ -63,6 +63,15 @@ export default function Navbar() {
           <li className="nav-item">
             <Link
               className="nav-link"
+              to="/events"
+              onClick={() => navClick("/pages/events")}
+            >
+              {t("navbar.events")}
+            </Link>
+          </li>
+          <li className="nav-item">
+            <Link
+              className="nav-link"
               to="/webdeveloper"
               onClick={() => navClick("/pages/webdeveloper")}
             >

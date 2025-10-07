@@ -3,6 +3,7 @@ import { Route, Routes } from "react-router-dom";
 const Home = lazy(() => import("./Home"));
 const About = lazy(() => import("./pages/About"));
 const Voicecoach = lazy(() => import("./pages/Voicecoach"));
+const Events = lazy(() => import("./pages/Events"));
 const Webdeveloper = lazy(() => import("./pages/Webdeveloper"));
 const Blank = lazy(() => import("./pages/Blank"));
 const Disclosure = lazy(() => import("./pages/Disclosure"));
@@ -16,6 +17,7 @@ export default function App() {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/voicecoach" element={<Voicecoach />} />
+          <Route path="/events" element={<Events />} />
           <Route path="/webdeveloper" element={<Webdeveloper />} />
           <Route path="/contact" element={<Blank />} />
           <Route path="/disclosure" element={<Disclosure />} />
