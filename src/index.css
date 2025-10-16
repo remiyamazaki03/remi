@@ -20,6 +20,9 @@ p,
 ul.prices {
   font-size: 20px;
 }
+.Dq4amc {
+  display: none !important;
+}
 footer {
   padding-left: 60px;
   background-color: var(--main-background-color);

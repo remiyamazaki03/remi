@@ -114,11 +114,21 @@ export default function Footer() {
           <div className="d-flex d-block d-md-none mb-3 justify-content-center">
             email: hello@chameleon-studios.com
           </div>
-          <div className="me-sm-5">
-            <FormfacadeEmbed
-              formFacadeURL="https://formfacade.com/include/100240402409090706097/form/1FAIpQLScGNmvJZi7y5zQztyhrSeGIe_HVPr-uCRwYfh4U0UDX8XQXtA/classic.js/?div=ff-compose"
-              onSubmitForm={() => console.log("Form submitted")}
-            />
+          <div
+            className="me-sm-5 d-flex align-items-center justify-content-center"
+            style={{ height: "100vh", width: "100%" }}
+          >
+            <iframe
+              src="https://docs.google.com/forms/d/e/1FAIpQLScGNmvJZi7y5zQztyhrSeGIe_HVPr-uCRwYfh4U0UDX8XQXtA/viewform?embedded=true"
+              width="100%"
+              style={{ height: "100vh" }}
+              allowFullScreen
+              frameborder="0"
+              marginheight="0"
+              marginwidth="0"
+            >
+              Loading…
+            </iframe>
           </div>
         </div>
       </div>
